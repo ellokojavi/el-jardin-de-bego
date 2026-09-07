@@ -98,6 +98,8 @@ def separar_portada(md: str):
     return titulo, lema, credito, "\n".join(lineas[i:])
 
 
+PREFIJO_DESCARGA = "El jardin de Bego - "  # contexto en el nombre del archivo bajado
+
 PLANTILLA = """<!DOCTYPE html>
 <html lang="{lang}">
 <head>
@@ -115,7 +117,7 @@ PLANTILLA = """<!DOCTYPE html>
 <header class="barra">
   <div class="envoltura">
     <a class="volver" href="./index.html">&larr; El jardín de Bego</a>
-    <a class="descargar" href="./{docx}" download>{icono} Descargar .docx</a>
+    <a class="descargar" href="./{docx}" download="{descarga}">{icono} Descargar .docx</a>
   </div>
 </header>
 
@@ -134,7 +136,7 @@ PLANTILLA = """<!DOCTYPE html>
 {solucionario}
   <div class="pie">
     <p><a class="volver" href="./index.html">&larr; Volver al jardín</a></p>
-    <a class="descargar" href="./{docx}" download>{icono} Descargar .docx</a>
+    <a class="descargar" href="./{docx}" download="{descarga}">{icono} Descargar .docx</a>
   </div>
 </main>
 
@@ -190,6 +192,7 @@ def construir(ruta_md: Path) -> Path:
             cuerpo=cuerpo,
             solucionario=sol,
             docx=stem + ".docx",
+            descarga=PREFIJO_DESCARGA + stem + ".docx",
             icono=ICONO_DESCARGA,
         ),
         encoding="utf-8",
