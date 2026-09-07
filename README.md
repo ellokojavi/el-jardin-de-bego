@@ -18,10 +18,19 @@ Materiales de repaso para 5° básico, alineados a las Bases Curriculares del Mi
 | `05-Ingles.docx` | Inglés | Food vocabulary, likes and dislikes, there is / there are, healthy habits | 3 |
 | `06-Evaluacion-final.docx` | Todas | Evaluación integrada de 55 puntos con solucionario | — |
 
+Cada guía se puede leer en línea (`01-Matematicas.html` y equivalentes) o descargar en
+Word. En la versión web el solucionario va plegado tras un botón, para el adulto.
+
 Los archivos `.md` son las fuentes de cada documento. Para regenerar un `.docx` después de editar su fuente:
 
 ```bash
 pandoc 01-Matematicas.md -o 01-Matematicas.docx --standalone
+```
+
+Y la página web correspondiente:
+
+```bash
+python3 scripts/build-web.py 01-Matematicas.md
 ```
 
 ## Estructura de cada guía

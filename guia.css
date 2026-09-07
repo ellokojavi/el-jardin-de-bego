@@ -1,0 +1,182 @@
+/* Estilo compartido de las guías de "El jardín de Bego".
+   Reutiliza los tokens de index.html. Editar aquí cambia las siete páginas. */
+:root{
+  --pasto:#E4EEDD;
+  --pasto-hondo:#D3E2C9;
+  --tinta:#22432F;
+  --tinta-suave:#4E6B57;
+  --papel:#FFFDF7;
+  --begonia:#D6336C;
+  --sol:#F3B93B;
+  --tierra:#8C6239;
+
+  --mate:#3D7DB8;
+  --leng:#C2456E;
+  --cien:#3E8E5A;
+  --hist:#C97B2E;
+  --ingl:#7A55A6;
+
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --texto:"Nunito","Trebuchet MS",Verdana,sans-serif;
+
+  --acento:var(--tinta);
+  --sombra:var(--pasto-hondo);
+}
+.g-plan{--acento:var(--tierra);--sombra:#E3D6C4}
+.g-mate{--acento:var(--mate);--sombra:#CBDDEC}
+.g-leng{--acento:var(--leng);--sombra:#EFD2DC}
+.g-cien{--acento:var(--cien);--sombra:#CFE3D5}
+.g-hist{--acento:var(--hist);--sombra:#EEDCC3}
+.g-ingl{--acento:var(--ingl);--sombra:#DED2EC}
+.g-eval{--acento:var(--begonia);--sombra:#EFD2DC}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--pasto);color:var(--tinta);
+  font-family:var(--texto);font-size:17px;line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.envoltura{max-width:820px;margin:0 auto;padding:0 22px}
+
+/* ---------- barra superior ---------- */
+.barra{
+  position:sticky;top:0;z-index:20;
+  background:rgba(228,238,221,.94);
+  backdrop-filter:blur(6px);
+  border-bottom:2px solid var(--pasto-hondo);
+}
+.barra .envoltura{
+  display:flex;align-items:center;justify-content:space-between;gap:14px;
+  padding-top:10px;padding-bottom:10px;
+}
+.volver{
+  color:var(--tinta);text-decoration:none;font-weight:700;font-size:.94rem;
+  display:inline-flex;align-items:center;gap:7px;
+}
+.volver:hover,.volver:focus-visible{color:var(--acento)}
+.descargar{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--papel);color:var(--tinta);
+  border:2px solid var(--tinta);border-radius:10px;
+  padding:7px 13px;font-weight:800;font-size:.9rem;text-decoration:none;
+  box-shadow:3px 4px 0 var(--sombra);
+  transition:transform .16s ease, box-shadow .16s ease;
+  white-space:nowrap;
+}
+.descargar:hover,.descargar:focus-visible{
+  transform:translate(-1px,-2px);box-shadow:5px 6px 0 var(--sombra);
+  border-color:var(--acento);color:var(--acento);
+}
+.descargar svg{width:17px;height:17px;flex:none}
+
+/* ---------- portada de la guía ---------- */
+.encabezado{padding:34px 0 6px}
+.num{
+  font-size:.76rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--acento);margin-bottom:6px;
+}
+.encabezado h1{
+  font-family:var(--display);font-weight:900;
+  font-size:clamp(1.8rem,5.6vw,3rem);line-height:1.04;
+  margin:0 0 12px;letter-spacing:-.015em;
+}
+.lema{margin:0 0 6px;font-size:1.05rem;color:var(--tinta-suave);max-width:52ch}
+.credito{margin:0;font-size:.9rem;color:var(--tinta-suave);opacity:.85}
+
+/* ---------- cuerpo ---------- */
+.contenido{
+  background:var(--papel);border:2px solid var(--tinta);border-radius:16px;
+  padding:26px 30px 32px;margin:22px 0 30px;
+  box-shadow:6px 7px 0 var(--sombra);
+}
+.contenido>*:first-child{margin-top:0}
+.contenido h1{
+  font-family:var(--display);font-size:1.7rem;font-weight:900;
+  margin:34px 0 12px;padding-bottom:8px;border-bottom:3px solid var(--pasto-hondo);
+}
+.contenido h2{
+  font-family:var(--display);font-size:1.42rem;font-weight:700;
+  margin:32px 0 10px;color:var(--acento);
+}
+.contenido h3{font-family:var(--display);font-size:1.14rem;font-weight:700;margin:22px 0 8px}
+.contenido h4{font-size:1rem;font-weight:800;margin:18px 0 6px;color:var(--tinta-suave)}
+.contenido p{margin:0 0 14px}
+/* las líneas "______" para escribir a mano no tienen punto de corte:
+   sin esto desbordan la pantalla en móvil */
+.contenido p,.contenido li,.contenido td,.contenido th{overflow-wrap:anywhere}
+
+.contenido ul,.contenido ol{margin:0 0 14px;padding-left:1.4em}
+.contenido li{margin-bottom:6px}
+.contenido li>ul,.contenido li>ol{margin-top:6px}
+.contenido strong{font-weight:800}
+.contenido hr{border:none;border-top:2px dashed var(--pasto-hondo);margin:26px 0}
+.contenido a{color:var(--acento)}
+.contenido code{
+  background:var(--pasto);border-radius:5px;padding:1px 5px;font-size:.92em;
+}
+
+/* textos literarios y versos */
+.contenido blockquote{
+  margin:0 0 18px;padding:16px 20px;
+  background:var(--pasto);border-left:5px solid var(--acento);border-radius:0 10px 10px 0;
+}
+.contenido blockquote p{margin:0 0 10px}
+.contenido blockquote p:last-child{margin-bottom:0}
+
+/* tablas */
+.tabla-envoltura{overflow-x:auto;margin:0 0 18px;-webkit-overflow-scrolling:touch}
+.contenido table{border-collapse:collapse;width:100%;font-size:.95rem;min-width:420px}
+.contenido th,.contenido td{
+  border:1px solid var(--pasto-hondo);padding:8px 11px;text-align:left;vertical-align:top;
+}
+.contenido thead th{background:var(--pasto);font-weight:800}
+.contenido tbody tr:nth-child(even){background:rgba(228,238,221,.35)}
+
+/* bloques "Ahora tú" */
+.ahora{
+  background:rgba(243,185,59,.11);
+  border:2px dashed var(--sol);
+  border-radius:12px;padding:16px 20px 6px;margin:20px 0 22px;
+}
+.ahora>h3{margin-top:0;color:var(--tierra)}
+
+/* ---------- solucionario ---------- */
+.solucionario{
+  background:var(--papel);border:2px solid var(--begonia);border-radius:16px;
+  margin:0 0 34px;overflow:hidden;
+}
+.solucionario>summary{
+  cursor:pointer;list-style:none;
+  padding:18px 22px;font-weight:800;
+  display:flex;align-items:center;gap:12px;
+  background:rgba(214,51,108,.07);color:var(--begonia);
+}
+.solucionario>summary::-webkit-details-marker{display:none}
+.solucionario>summary:hover{background:rgba(214,51,108,.13)}
+.solucionario>summary .aviso{font-weight:500;color:var(--tinta-suave);font-size:.9rem;display:block}
+.solucionario>summary .flecha{margin-left:auto;transition:transform .2s ease;flex:none}
+.solucionario[open]>summary .flecha{transform:rotate(180deg)}
+.solucionario .cuerpo{padding:6px 26px 26px;border-top:2px dashed var(--pasto-hondo)}
+.solucionario .cuerpo h1{font-size:1.45rem;border-bottom-color:rgba(214,51,108,.25)}
+.solucionario .cuerpo h2{color:var(--begonia)}
+
+/* ---------- pie ---------- */
+.pie{padding:0 0 44px;display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between}
+.pie p{margin:0;font-size:.9rem;color:var(--tinta-suave)}
+
+a:focus-visible,summary:focus-visible{outline:3px solid var(--acento);outline-offset:3px}
+
+@media (max-width:560px){
+  body{font-size:16px}
+  .contenido{padding:20px 18px 24px;border-radius:12px}
+  .solucionario .cuerpo{padding:6px 18px 20px}
+  .barra .envoltura{padding-left:16px;padding-right:16px}
+}
+
+@media print{
+  .barra,.pie{display:none}
+  body{background:#fff}
+  .contenido,.solucionario{border:none;box-shadow:none;padding:0}
+  .solucionario .cuerpo{display:block !important}
+}

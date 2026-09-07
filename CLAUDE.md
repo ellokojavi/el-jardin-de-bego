@@ -55,6 +55,31 @@ estudiante.
 - **Consistencia retroactiva**: cuando se identifica una mejora estructural, se
   aplica hacia atrás a todas las guías ya terminadas.
 
+## Versión web de las guías
+
+Cada documento existe también como página: `01-Matematicas.html`, etc., generadas por
+`scripts/build-web.py` a partir del mismo `.md`. **No se editan a mano**, igual que los
+`.docx`.
+
+- El estilo compartido está en `guia.css`. Tocarlo cambia las siete páginas.
+- Cada página lleva el `noindex`, un enlace de vuelta al índice y un botón de descarga
+  del `.docx` arriba y abajo.
+- El **solucionario va plegado** dentro de un `<details>` con la advertencia "para el
+  adulto". El script lo separa cortando el Markdown en el bloque ```` ```{=openxml} ````
+  del salto de página, así que ese marcador cumple dos funciones: salto de página en el
+  `.docx` y frontera del solucionario en la web. No quitarlo.
+- Los bloques "✏️ Ahora tú" (y "✏️ Now you try" en Inglés) se detectan por el lápiz y se
+  destacan con un recuadro. Si se renombran, conservar el emoji.
+- Las guías web son **solo de lectura**: los ejercicios se responden en el `.docx`
+  impreso o en el cuaderno.
+
+Después de editar cualquier `.md` hay que regenerar **ambos** formatos:
+
+```bash
+scripts/build.sh 01-Matematicas.md      # .docx
+python3 scripts/build-web.py 01-Matematicas.md   # .html
+```
+
 ## Toolchain
 
 Todo está instalado en este Mac (`pandoc`, `soffice`, `pdftoppm`, `git`).

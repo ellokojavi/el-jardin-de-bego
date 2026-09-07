@@ -203,6 +203,23 @@ body{
 .doc strong{display:block;font-family:var(--display);font-size:1.08rem}
 .doc span{font-size:.9rem;color:var(--tinta-suave)}
 
+/* ---------- enlace de tapa + descarga ---------- */
+.ficha,.doc{position:relative}
+.ficha h3 a.tapa,.doc strong a.tapa{color:inherit;text-decoration:none}
+.ficha h3 a.tapa::after,.doc strong a.tapa::after{
+  content:"";position:absolute;inset:0;border-radius:inherit;
+}
+.ficha .acciones{display:flex;align-items:center;gap:10px}
+.bajar{
+  position:relative;z-index:1;
+  font-size:.78rem;font-weight:800;letter-spacing:.02em;
+  color:var(--tinta-suave);text-decoration:none;white-space:nowrap;
+  border:2px solid var(--pasto-hondo);border-radius:8px;
+  padding:3px 9px;background:var(--papel);
+}
+.bajar:hover,.bajar:focus-visible{border-color:var(--acento,var(--begonia));color:var(--acento,var(--begonia))}
+.doc .bajar{display:inline-block;margin-top:10px}
+
 /* ---------- cierre ---------- */
 .cierre{
   text-align:center;padding:16px 0 52px;color:var(--tinta-suave);font-size:.9rem;
@@ -223,9 +240,38 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
 @keyframes crecer{to{stroke-dashoffset:0}}
 @keyframes brotar{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:scale(1)}}
 
+/* el sol gira despacio y respira; la abeja vuela y aletea */
+.rayos{
+  transform-origin:852px 52px;
+  animation:girar 34s linear infinite;
+}
+.disco{
+  transform-origin:852px 52px;
+  animation:respirar 5.5s ease-in-out infinite;
+}
+.abeja{
+  animation:volar 9s ease-in-out infinite;
+  animation-delay:1.9s;
+}
+.ala{
+  transform-box:fill-box;transform-origin:88% 62%;
+  animation:aletear .22s ease-in-out infinite alternate;
+  animation-delay:1.9s;
+}
+@keyframes girar{to{transform:rotate(360deg)}}
+@keyframes respirar{50%{transform:scale(1.06)}}
+@keyframes volar{
+  0%,100%{transform:translate(0,0) rotate(0deg)}
+  22%    {transform:translate(16px,-11px) rotate(-4deg)}
+  48%    {transform:translate(30px,3px) rotate(3deg)}
+  74%    {transform:translate(11px,-6px) rotate(-2deg)}
+}
+@keyframes aletear{from{transform:scaleY(1)}to{transform:scaleY(.45)}}
+
 @media (prefers-reduced-motion:reduce){
   .tallo{stroke-dashoffset:0;animation:none}
   .flor{opacity:1;animation:none}
+  .rayos,.disco,.abeja,.ala{animation:none}
   *{transition:none!important}
   html{scroll-behavior:auto}
 }
@@ -239,13 +285,13 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
 
 <header class="portada envoltura">
   <h1>El jardín de <em>Bego</em></h1>
-  <p class="bajada">Tres semanas para repasar todo lo que pasaron en quinto año en Chile entre marzo y septiembre. Una guía por materia, y un jardín que crece cada vez que estudias.</p>
+  <p class="bajada">Tres semanas para repasar todo lo que pasaron los compañeros de Bego en quinto año en Chile entre marzo y septiembre y preparar a Bego en su nueva vida escolar en Chile. Una guía por materia, y un jardín que crece cada vez que estudia.</p>
 
   <svg class="jardin" viewBox="0 0 940 300" role="img" aria-label="Ilustración de un jardín con cinco plantas, una por cada materia">
     <!-- sol -->
     <g class="flor b1">
-      <circle cx="852" cy="52" r="26" fill="#F3B93B"/>
-      <g stroke="#F3B93B" stroke-width="5" stroke-linecap="round">
+      <circle class="disco" cx="852" cy="52" r="26" fill="#F3B93B"/>
+      <g class="rayos" stroke="#F3B93B" stroke-width="5" stroke-linecap="round">
         <line x1="852" y1="10" x2="852" y2="0"/><line x1="894" y1="52" x2="906" y2="52"/>
         <line x1="882" y1="22" x2="890" y2="14"/><line x1="882" y1="82" x2="890" y2="90"/>
         <line x1="822" y1="22" x2="814" y2="14"/><line x1="810" y1="52" x2="798" y2="52"/>
@@ -319,11 +365,13 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
 
     <!-- abeja -->
     <g class="flor b5">
-      <path d="M232 62 q14 -12 26 -2 q12 10 24 -4" fill="none" stroke="#22432F" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 8" opacity=".45"/>
-      <ellipse cx="216" cy="60" rx="15" ry="11" fill="#F3B93B"/>
-      <path d="M212 50 v20 M221 51 v18" stroke="#22432F" stroke-width="3.5" stroke-linecap="round"/>
-      <ellipse cx="212" cy="48" rx="11" ry="5.5" fill="#FFFDF7" opacity=".9" transform="rotate(-28 212 48)"/>
-      <circle cx="203" cy="58" r="2.6" fill="#22432F"/>
+      <g class="abeja">
+        <path class="estela" d="M232 62 q14 -12 26 -2 q12 10 24 -4" fill="none" stroke="#22432F" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 8" opacity=".45"/>
+        <ellipse cx="216" cy="60" rx="15" ry="11" fill="#F3B93B"/>
+        <path d="M212 50 v20 M221 51 v18" stroke="#22432F" stroke-width="3.5" stroke-linecap="round"/>
+        <g class="ala"><ellipse cx="212" cy="48" rx="11" ry="5.5" fill="#FFFDF7" opacity=".9" transform="rotate(-28 212 48)"/></g>
+        <circle cx="203" cy="58" r="2.6" fill="#22432F"/>
+      </g>
     </g>
   </svg>
 </header>
@@ -360,11 +408,11 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
 
   <section class="seccion" id="guias">
     <h2>Las cinco guías</h2>
-    <p class="intro">Cada guía trae diagnóstico, contenidos con ejercicios, práctica graduada, una actividad central y evaluación. El solucionario va al final, en una página aparte.</p>
+    <p class="intro">Cada guía se lee en línea o se descarga en Word. Trae diagnóstico, contenidos con ejercicios, práctica graduada, una actividad central y evaluación. El solucionario queda plegado, para el adulto.</p>
 
     <div class="huerto">
 
-      <a class="ficha f-mate" href="./01-Matematicas.docx">
+      <article class="ficha f-mate">
         <svg viewBox="0 0 60 70" aria-hidden="true">
           <path d="M30 68 C28 46 34 34 32 22" fill="none" stroke="#3E8E5A" stroke-width="4" stroke-linecap="round"/>
           <ellipse cx="16" cy="42" rx="12" ry="7" fill="#3E8E5A" transform="rotate(-25 16 42)"/>
@@ -373,12 +421,12 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
           <path d="M32 15 v10 M27 20 h10" stroke="#3D7DB8" stroke-width="3" stroke-linecap="round"/>
         </svg>
         <div class="num">Guía 1</div>
-        <h3>Matemáticas</h3>
+        <h3><a class="tapa" href="./01-Matematicas.html">Matemáticas</a></h3>
         <p>Números hasta el millón, multiplicación y división, fracciones y decimales.</p>
-        <div class="pie"><span class="horas">5 horas</span><span class="abrir">Abrir guía</span></div>
-      </a>
+        <div class="pie"><span class="horas">5 horas</span><span class="acciones"><span class="abrir">Abrir guía</span><a class="bajar" href="./01-Matematicas.docx" download aria-label="Descargar la guía en Word">.docx</a></span></div>
+      </article>
 
-      <a class="ficha f-leng" href="./02-Lenguaje.docx">
+      <article class="ficha f-leng">
         <svg viewBox="0 0 60 70" aria-hidden="true">
           <path d="M30 68 C28 48 34 36 32 26" fill="none" stroke="#3E8E5A" stroke-width="4" stroke-linecap="round"/>
           <ellipse cx="46" cy="46" rx="12" ry="7" fill="#3E8E5A" transform="rotate(25 46 46)"/>
@@ -386,12 +434,12 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
           <path d="M31 17 C30 26 31 32 31 36" fill="none" stroke="#FFFDF7" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
         </svg>
         <div class="num">Guía 2</div>
-        <h3>Lenguaje</h3>
+        <h3><a class="tapa" href="./02-Lenguaje.html">Lenguaje</a></h3>
         <p>Textos literarios, el poema y sus elementos, y el lenguaje figurado.</p>
-        <div class="pie"><span class="horas">4 horas</span><span class="abrir">Abrir guía</span></div>
-      </a>
+        <div class="pie"><span class="horas">4 horas</span><span class="acciones"><span class="abrir">Abrir guía</span><a class="bajar" href="./02-Lenguaje.docx" download aria-label="Descargar la guía en Word">.docx</a></span></div>
+      </article>
 
-      <a class="ficha f-cien" href="./03-Ciencias.docx">
+      <article class="ficha f-cien">
         <svg viewBox="0 0 60 70" aria-hidden="true">
           <path d="M30 68 C28 48 33 36 31 28" fill="none" stroke="#3E8E5A" stroke-width="4" stroke-linecap="round"/>
           <ellipse cx="15" cy="46" rx="12" ry="7" fill="#3E8E5A" transform="rotate(-25 15 46)"/>
@@ -399,12 +447,12 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
           <path d="M31 30 C32 22 36 14 45 8" fill="none" stroke="#FFFDF7" stroke-width="2.2" stroke-linecap="round"/>
         </svg>
         <div class="num">Guía 3</div>
-        <h3>Ciencias Naturales</h3>
+        <h3><a class="tapa" href="./03-Ciencias.html">Ciencias Naturales</a></h3>
         <p>Hábitos de vida saludable, menú saludable y efectos del cigarrillo.</p>
-        <div class="pie"><span class="horas">4 horas</span><span class="abrir">Abrir guía</span></div>
-      </a>
+        <div class="pie"><span class="horas">4 horas</span><span class="acciones"><span class="abrir">Abrir guía</span><a class="bajar" href="./03-Ciencias.docx" download aria-label="Descargar la guía en Word">.docx</a></span></div>
+      </article>
 
-      <a class="ficha f-hist" href="./04-Historia.docx">
+      <article class="ficha f-hist">
         <svg viewBox="0 0 60 70" aria-hidden="true">
           <path d="M30 68 C28 48 33 38 31 30" fill="none" stroke="#3E8E5A" stroke-width="4" stroke-linecap="round"/>
           <ellipse cx="46" cy="48" rx="12" ry="7" fill="#3E8E5A" transform="rotate(25 46 48)"/>
@@ -416,12 +464,12 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
           <path d="M31 12 l3.5 7 -3.5 7 -3.5 -7 Z" fill="#C97B2E"/>
         </svg>
         <div class="num">Guía 4</div>
-        <h3>Historia</h3>
+        <h3><a class="tapa" href="./04-Historia.html">Historia</a></h3>
         <p>Descubrimiento y Conquista de América, y la conquista de Chile.</p>
-        <div class="pie"><span class="horas">4 horas</span><span class="abrir">Abrir guía</span></div>
-      </a>
+        <div class="pie"><span class="horas">4 horas</span><span class="acciones"><span class="abrir">Abrir guía</span><a class="bajar" href="./04-Historia.docx" download aria-label="Descargar la guía en Word">.docx</a></span></div>
+      </article>
 
-      <a class="ficha f-ingl" href="./05-Ingles.docx">
+      <article class="ficha f-ingl">
         <svg viewBox="0 0 60 70" aria-hidden="true">
           <path d="M30 68 C28 50 33 40 31 34" fill="none" stroke="#3E8E5A" stroke-width="4" stroke-linecap="round"/>
           <ellipse cx="15" cy="50" rx="12" ry="7" fill="#3E8E5A" transform="rotate(-25 15 50)"/>
@@ -429,10 +477,10 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
           <path d="M31 17 C30 9 34 4 41 3" fill="none" stroke="#3E8E5A" stroke-width="3" stroke-linecap="round"/>
         </svg>
         <div class="num">Guía 5</div>
-        <h3>Inglés</h3>
+        <h3><a class="tapa" href="./05-Ingles.html">Inglés</a></h3>
         <p>Food vocabulary, likes and dislikes, there is / there are, healthy habits.</p>
-        <div class="pie"><span class="horas">3 horas</span><span class="abrir">Abrir guía</span></div>
-      </a>
+        <div class="pie"><span class="horas">3 horas</span><span class="acciones"><span class="abrir">Abrir guía</span><a class="bajar" href="./05-Ingles.docx" download aria-label="Descargar la guía en Word">.docx</a></span></div>
+      </article>
 
     </div>
   </section>
@@ -472,26 +520,27 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
   </section>
 
   <section class="seccion" id="adulto">
-    <h2>Para quien acompaña</h2>
-    <p class="intro">Dos documentos más, pensados para el adulto que estudia junto a Bego.</p>
+    <h2>Para el papá de Bego</h2>
+    <p class="intro">Dos documentos pensados para estudiar junto a Bego.</p>
     <div class="estante">
-      <a class="doc" href="./00-Plan-de-estudio.docx">
-        <strong>Plan de estudio</strong>
+      <div class="doc">
+        <strong><a class="tapa" href="./00-Plan-de-estudio.html">Plan de estudio</a></strong>
         <span>Calendario completo de las 15 sesiones y recomendaciones de acompañamiento.</span>
-      </a>
-      <a class="doc" href="./06-Evaluacion-final.docx">
-        <strong>Evaluación Final Integrada</strong>
+        <a class="bajar" href="./00-Plan-de-estudio.docx" download aria-label="Descargar en Word">.docx</a>
+      </div>
+      <div class="doc">
+        <strong><a class="tapa" href="./06-Evaluacion-final.html">Evaluación Final Integrada</a></strong>
         <span>55 puntos, las cinco materias, con solucionario y tabla de interpretación.</span>
-      </a>
+        <a class="bajar" href="./06-Evaluacion-final.docx" download aria-label="Descargar en Word">.docx</a>
+      </div>
     </div>
   </section>
 
 </main>
 
 <footer class="cierre envoltura">
-  <p class="nota"><strong>Para que los enlaces funcionen:</strong> las siete guías se abren desde esta misma página. Si descargas los archivos, mantenlos todos juntos en una carpeta: si mueves uno, el enlace de esa guía deja de abrir.</p>
   <p>Contenidos alineados a las Bases Curriculares de 5° básico del Ministerio de Educación de Chile.</p>
-  <p>Hecho para Bego · 2026</p>
+  <p>Hecho para Bego por su papá con mucho amor · 2026</p>
 </footer>
 
 <script>
