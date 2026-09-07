@@ -1,0 +1,12 @@
+# Artefactos de conversión y verificación
+*.pdf
+page-*.jpg
+*.tmp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/

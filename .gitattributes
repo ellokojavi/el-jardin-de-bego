@@ -1,0 +1,7 @@
+# Los documentos de Word son binarios: sin diffs ni normalización de saltos de línea.
+*.docx binary
+*.pdf  binary
+
+# Las fuentes son texto.
+*.md   text eol=lf
+*.html text eol=lf

@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El jardín de Begonia · Repaso de 5° básico</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pasto:#E4EEDD;
+  --pasto-hondo:#D3E2C9;
+  --tinta:#22432F;
+  --tinta-suave:#4E6B57;
+  --papel:#FFFDF7;
+  --begonia:#D6336C;
+  --sol:#F3B93B;
+  --tierra:#8C6239;
+
+  --mate:#3D7DB8;
+  --leng:#C2456E;
+  --cien:#3E8E5A;
+  --hist:#C97B2E;
+  --ingl:#7A55A6;
+
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --texto:"Nunito","Trebuchet MS",Verdana,sans-serif;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--pasto);
+  color:var(--tinta);
+  font-family:var(--texto);
+  font-size:17px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.envoltura{max-width:1000px;margin:0 auto;padding:0 22px}
+
+/* ---------- portada ---------- */
+.portada{padding:38px 0 8px;text-align:center}
+.portada h1{
+  font-family:var(--display);
+  font-weight:900;
+  font-size:clamp(2rem,8.4vw,4.6rem);
+  line-height:.98;
+  overflow-wrap:break-word;
+  margin:0 0 14px;
+  letter-spacing:-.02em;
+}
+.portada h1 em{font-style:italic;color:var(--begonia)}
+.bajada{
+  max-width:44ch;margin:0 auto;font-size:1.06rem;color:var(--tinta-suave);
+}
+.jardin{display:block;width:100%;height:auto;margin:14px auto 0;max-width:940px}
+
+/* ---------- franja de datos ---------- */
+.franja{
+  display:flex;flex-wrap:wrap;justify-content:center;gap:10px;
+  margin:0 0 46px;
+}
+.dato{
+  background:var(--papel);
+  border:2px solid var(--tinta);
+  border-radius:999px;
+  padding:7px 16px;
+  font-weight:800;
+  font-size:.9rem;
+}
+.dato span{color:var(--begonia)}
+
+/* ---------- títulos de sección ---------- */
+.seccion{margin:0 0 54px}
+.seccion > h2{
+  font-family:var(--display);
+  font-weight:700;
+  font-size:clamp(1.5rem,4vw,2.1rem);
+  margin:0 0 6px;
+}
+.seccion > p.intro{margin:0 0 26px;color:var(--tinta-suave);max-width:56ch}
+
+/* ---------- las tres semanas ---------- */
+.semanas{list-style:none;margin:0;padding:0 0 0 34px;position:relative}
+.semanas::before{
+  content:"";position:absolute;left:9px;top:12px;bottom:12px;width:4px;
+  background:var(--cien);border-radius:2px;
+}
+.semana{position:relative;padding:0 0 26px}
+.semana:last-child{padding-bottom:0}
+.semana::before{
+  content:"";position:absolute;left:-33px;top:5px;width:22px;height:22px;
+  border-radius:50%;background:var(--papel);border:4px solid var(--cien);
+}
+.semana h3{
+  font-family:var(--display);font-size:1.22rem;font-weight:700;margin:0 0 2px;
+}
+.semana h3 small{
+  display:block;font-family:var(--texto);font-size:.78rem;font-weight:800;
+  letter-spacing:.06em;color:var(--cien);text-transform:uppercase;margin-bottom:2px;
+}
+.semana p{margin:0;color:var(--tinta-suave)}
+
+/* ---------- fichas de guía ---------- */
+.huerto{
+  display:grid;gap:18px;
+  grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+}
+.ficha{
+  display:flex;flex-direction:column;
+  background:var(--papel);
+  border:2px solid var(--tinta);
+  border-radius:14px 14px 4px 4px;
+  padding:18px 20px 20px;
+  text-decoration:none;color:inherit;
+  box-shadow:5px 6px 0 var(--sombra,var(--pasto-hondo));
+  transition:transform .16s ease, box-shadow .16s ease;
+}
+.ficha:hover,.ficha:focus-visible{
+  transform:translate(-2px,-3px);
+  box-shadow:8px 10px 0 var(--sombra,var(--pasto-hondo));
+}
+.ficha svg{width:52px;height:62px;margin-bottom:10px}
+.ficha .num{
+  font-family:var(--texto);font-size:.74rem;font-weight:800;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--acento);margin-bottom:2px;
+}
+.ficha h3{font-family:var(--display);font-size:1.32rem;font-weight:700;margin:0 0 8px}
+.ficha p{margin:0 0 16px;font-size:.95rem;color:var(--tinta-suave);flex:1}
+.ficha .pie{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  border-top:2px dashed var(--pasto-hondo);padding-top:12px;
+}
+.ficha .horas{font-size:.85rem;font-weight:600;color:var(--tinta-suave)}
+.ficha .abrir{
+  font-weight:800;font-size:.92rem;color:var(--acento);
+}
+.f-mate{--acento:var(--mate);--sombra:#CBDDEC}
+.f-leng{--acento:var(--leng);--sombra:#EFD2DC}
+.f-cien{--acento:var(--cien);--sombra:#CFE3D5}
+.f-hist{--acento:var(--hist);--sombra:#EEDCC3}
+.f-ingl{--acento:var(--ingl);--sombra:#DED2EC}
+
+/* ---------- riego / progreso ---------- */
+.riego{
+  background:var(--papel);border:2px solid var(--tinta);border-radius:16px;
+  padding:22px 22px 24px;
+}
+.marcador{
+  display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:4px;
+}
+.marcador strong{font-family:var(--display);font-size:2.1rem;font-weight:900;line-height:1}
+.barra{
+  height:14px;background:var(--pasto-hondo);border-radius:999px;overflow:hidden;margin:14px 0 20px;
+}
+.barra i{display:block;height:100%;width:0;background:var(--cien);border-radius:999px;transition:width .3s ease}
+.sesiones{list-style:none;margin:0;padding:0;display:grid;gap:8px;
+  grid-template-columns:repeat(auto-fill,minmax(240px,1fr));}
+.sesiones li{margin:0}
+.sesiones label{
+  display:flex;align-items:flex-start;gap:10px;cursor:pointer;
+  padding:7px 10px;border-radius:9px;font-size:.92rem;line-height:1.35;
+}
+.sesiones label:hover{background:var(--pasto)}
+.sesiones input{
+  appearance:none;-webkit-appearance:none;flex:0 0 auto;
+  width:20px;height:20px;margin:1px 0 0;border:2px solid var(--tinta-suave);
+  border-radius:50% 50% 50% 2px;transform:rotate(45deg);background:transparent;cursor:pointer;
+}
+.sesiones input:checked{background:var(--cien);border-color:var(--cien)}
+.sesiones input:focus-visible{outline:3px solid var(--begonia);outline-offset:2px}
+.sesiones input:checked + span{text-decoration:line-through;color:var(--tinta-suave)}
+.reiniciar{
+  margin-top:18px;background:none;border:2px solid var(--tinta-suave);color:var(--tinta-suave);
+  font-family:var(--texto);font-weight:700;font-size:.85rem;
+  border-radius:999px;padding:6px 15px;cursor:pointer;
+}
+.reiniciar:hover{border-color:var(--begonia);color:var(--begonia)}
+.guardado{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  margin:16px 0 0;font-size:.84rem;color:var(--tinta-suave);line-height:1.45;
+}
+.guardado::before{
+  content:"";flex:0 0 auto;width:11px;height:11px;border-radius:50% 50% 50% 1px;
+  transform:rotate(45deg);background:var(--cien);
+}
+.guardado.sin-memoria{color:var(--begonia)}
+.guardado.sin-memoria::before{background:var(--begonia)}
+
+/* ---------- estante del adulto ---------- */
+.estante{
+  display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+}
+.doc{
+  display:block;background:var(--papel);border:2px solid var(--tinta);
+  border-radius:10px;padding:15px 18px;text-decoration:none;color:inherit;
+}
+.doc:hover,.doc:focus-visible{background:#fff;border-color:var(--begonia)}
+.doc strong{display:block;font-family:var(--display);font-size:1.08rem}
+.doc span{font-size:.9rem;color:var(--tinta-suave)}
+
+/* ---------- cierre ---------- */
+.cierre{
+  text-align:center;padding:16px 0 52px;color:var(--tinta-suave);font-size:.9rem;
+}
+.cierre p{max-width:50ch;margin:0 auto 6px}
+.nota{
+  background:var(--pasto-hondo);border-radius:12px;padding:14px 18px;
+  font-size:.88rem;color:var(--tinta);margin:0 auto 26px;max-width:62ch;text-align:left;
+}
+
+a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-offset:3px}
+
+/* ---------- una sola animación de entrada ---------- */
+.tallo{stroke-dasharray:200;stroke-dashoffset:200;animation:crecer 1.15s ease-out forwards}
+.flor{transform-origin:center;opacity:0;animation:brotar .5s cubic-bezier(.34,1.56,.64,1) forwards}
+.t2{animation-delay:.12s}.t3{animation-delay:.24s}.t4{animation-delay:.36s}.t5{animation-delay:.48s}
+.b1{animation-delay:.85s}.b2{animation-delay:.97s}.b3{animation-delay:1.09s}.b4{animation-delay:1.21s}.b5{animation-delay:1.33s}
+@keyframes crecer{to{stroke-dashoffset:0}}
+@keyframes brotar{from{opacity:0;transform:scale(.2)}to{opacity:1;transform:scale(1)}}
+
+@media (prefers-reduced-motion:reduce){
+  .tallo{stroke-dashoffset:0;animation:none}
+  .flor{opacity:1;animation:none}
+  *{transition:none!important}
+  html{scroll-behavior:auto}
+}
+@media (max-width:520px){
+  body{font-size:16px}
+  .ficha{border-radius:12px 12px 4px 4px}
+}
+</style>
+</head>
+<body>
+
+<header class="portada envoltura">
+  <h1>El jardín de <em>Begonia</em></h1>
+  <p class="bajada">Tres semanas para repasar todo lo que pasaron en quinto año en Chile entre marzo y septiembre. Una guía por materia, y un jardín que crece cada vez que estudias.</p>
+
+  <svg class="jardin" viewBox="0 0 940 300" role="img" aria-label="Ilustración de un jardín con cinco plantas, una por cada materia">
+    <!-- sol -->
+    <g class="flor b1">
+      <circle cx="852" cy="52" r="26" fill="#F3B93B"/>
+      <g stroke="#F3B93B" stroke-width="5" stroke-linecap="round">
+        <line x1="852" y1="10" x2="852" y2="0"/><line x1="894" y1="52" x2="906" y2="52"/>
+        <line x1="882" y1="22" x2="890" y2="14"/><line x1="882" y1="82" x2="890" y2="90"/>
+        <line x1="822" y1="22" x2="814" y2="14"/><line x1="810" y1="52" x2="798" y2="52"/>
+      </g>
+    </g>
+
+    <!-- tierra -->
+    <path d="M0 262 Q235 246 470 258 T940 254 L940 300 L0 300 Z" fill="#D3E2C9"/>
+    <path d="M0 268 Q235 252 470 264 T940 260" fill="none" stroke="#8C6239" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+
+    <!-- planta 1 · matemáticas -->
+    <g>
+      <path class="tallo" d="M140 260 C136 210 148 178 146 138" fill="none" stroke="#3E8E5A" stroke-width="6" stroke-linecap="round"/>
+      <path class="tallo t2" d="M144 210 C122 202 112 190 108 176" fill="none" stroke="#3E8E5A" stroke-width="5" stroke-linecap="round"/>
+      <ellipse class="flor b1" cx="102" cy="172" rx="17" ry="10" fill="#3E8E5A" transform="rotate(-24 102 172)"/>
+      <g class="flor b1">
+        <circle cx="146" cy="120" r="30" fill="#3D7DB8"/>
+        <circle cx="146" cy="120" r="15" fill="#FFFDF7"/>
+        <path d="M146 111 v18 M137 120 h18" stroke="#3D7DB8" stroke-width="4" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- planta 2 · lenguaje -->
+    <g>
+      <path class="tallo t2" d="M300 262 C296 206 308 172 304 128" fill="none" stroke="#3E8E5A" stroke-width="6" stroke-linecap="round"/>
+      <path class="tallo t3" d="M303 214 C326 208 338 196 342 182" fill="none" stroke="#3E8E5A" stroke-width="5" stroke-linecap="round"/>
+      <ellipse class="flor b2" cx="348" cy="178" rx="17" ry="10" fill="#3E8E5A" transform="rotate(22 348 178)"/>
+      <g class="flor b2">
+        <path d="M276 84 C276 122 288 134 304 134 C320 134 332 122 332 84 C324 102 318 106 316 80 C310 104 298 104 292 80 C290 106 284 102 276 84 Z" fill="#C2456E"/>
+        <path d="M304 100 C302 116 303 126 304 134" fill="none" stroke="#FFFDF7" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+      </g>
+    </g>
+
+    <!-- planta 3 · ciencias -->
+    <g>
+      <path class="tallo t3" d="M470 262 C468 208 476 178 472 142" fill="none" stroke="#3E8E5A" stroke-width="6" stroke-linecap="round"/>
+      <path class="tallo t4" d="M471 200 C448 196 436 184 430 170" fill="none" stroke="#3E8E5A" stroke-width="5" stroke-linecap="round"/>
+      <ellipse class="flor b3" cx="424" cy="166" rx="17" ry="10" fill="#3E8E5A" transform="rotate(-24 424 166)"/>
+      <g class="flor b3">
+        <path d="M472 142 C446 118 448 88 468 82 C480 78 488 90 472 110 C488 88 506 90 508 102 C511 122 494 136 472 142 Z" fill="#5FB37C" stroke="#FFFDF7" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M472 142 C474 124 480 108 494 96" fill="none" stroke="#FFFDF7" stroke-width="3.5" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- planta 4 · historia -->
+    <g>
+      <path class="tallo t4" d="M640 262 C638 208 646 176 642 136" fill="none" stroke="#3E8E5A" stroke-width="6" stroke-linecap="round"/>
+      <path class="tallo t5" d="M641 208 C664 202 676 190 682 176" fill="none" stroke="#3E8E5A" stroke-width="5" stroke-linecap="round"/>
+      <ellipse class="flor b4" cx="688" cy="172" rx="17" ry="10" fill="#3E8E5A" transform="rotate(22 688 172)"/>
+      <g class="flor b4">
+        <g fill="#C97B2E">
+          <circle cx="642" cy="88" r="13"/><circle cx="666" cy="106" r="13"/>
+          <circle cx="618" cy="106" r="13"/><circle cx="652" cy="130" r="13"/><circle cx="632" cy="130" r="13"/>
+        </g>
+        <circle cx="642" cy="109" r="17" fill="#FFFDF7"/>
+        <path d="M642 98 l5 11 -5 11 -5 -11 Z" fill="#C97B2E"/>
+      </g>
+    </g>
+
+    <!-- planta 5 · inglés -->
+    <g>
+      <path class="tallo t5" d="M805 262 C802 214 812 184 808 152" fill="none" stroke="#3E8E5A" stroke-width="6" stroke-linecap="round"/>
+      <path class="tallo t5" d="M807 214 C784 210 772 198 766 184" fill="none" stroke="#3E8E5A" stroke-width="5" stroke-linecap="round"/>
+      <ellipse class="flor b5" cx="760" cy="180" rx="17" ry="10" fill="#3E8E5A" transform="rotate(-24 760 180)"/>
+      <g class="flor b5">
+        <path d="M808 156 C776 156 770 120 788 108 C798 101 808 110 808 120 C808 110 818 101 828 108 C846 120 840 156 808 156 Z" fill="#7A55A6"/>
+        <path d="M808 120 C806 106 812 98 822 96" fill="none" stroke="#3E8E5A" stroke-width="4.5" stroke-linecap="round"/>
+        <ellipse cx="830" cy="98" rx="10" ry="5.5" fill="#5FB37C" transform="rotate(-18 830 98)"/>
+      </g>
+    </g>
+
+    <!-- abeja -->
+    <g class="flor b5">
+      <path d="M232 62 q14 -12 26 -2 q12 10 24 -4" fill="none" stroke="#22432F" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 8" opacity=".45"/>
+      <ellipse cx="216" cy="60" rx="15" ry="11" fill="#F3B93B"/>
+      <path d="M212 50 v20 M221 51 v18" stroke="#22432F" stroke-width="3.5" stroke-linecap="round"/>
+      <ellipse cx="212" cy="48" rx="11" ry="5.5" fill="#FFFDF7" opacity=".9" transform="rotate(-28 212 48)"/>
+      <circle cx="203" cy="58" r="2.6" fill="#22432F"/>
+    </g>
+  </svg>
+</header>
+
+<div class="envoltura">
+  <div class="franja">
+    <span class="dato"><span>5</span> guías</span>
+    <span class="dato"><span>15</span> sesiones</span>
+    <span class="dato"><span>20</span> horas</span>
+    <span class="dato"><span>3</span> semanas</span>
+  </div>
+</div>
+
+<main class="envoltura">
+
+  <section class="seccion" id="plan">
+    <h2>Cómo crece el jardín</h2>
+    <p class="intro">Cada semana tiene un trabajo distinto. No hay que apurar las etapas: una planta no florece porque uno tire del tallo.</p>
+    <ol class="semanas">
+      <li class="semana">
+        <h3><small>Semana 1</small>Reconocer</h3>
+        <p>Diagnóstico de cada guía y las primeras secciones de contenido. Sirve para saber qué está firme y qué necesita agua.</p>
+      </li>
+      <li class="semana">
+        <h3><small>Semana 2</small>Profundizar</h3>
+        <p>Ejercicios graduados y la actividad central de cada materia. Aquí se aplica lo aprendido en tareas más largas.</p>
+      </li>
+      <li class="semana">
+        <h3><small>Semana 3</small>Consolidar</h3>
+        <p>Repaso de lo que quedó débil y la evaluación final integrada, que mezcla las cinco materias.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="seccion" id="guias">
+    <h2>Las cinco guías</h2>
+    <p class="intro">Cada guía trae diagnóstico, contenidos con ejercicios, práctica graduada, una actividad central y evaluación. El solucionario va al final, en una página aparte.</p>
+
+    <div class="huerto">
+
+      <a class="ficha f-mate" href="./01-Matematicas.docx">
+        <svg viewBox="0 0 60 70" aria-hidden="true">
+          <path d="M30 68 C28 46 34 34 32 22" fill="none" stroke="#3E8E5A" stroke-width="4" stroke-linecap="round"/>
+          <ellipse cx="16" cy="42" rx="12" ry="7" fill="#3E8E5A" transform="rotate(-25 16 42)"/>
+          <circle cx="32" cy="20" r="17" fill="#3D7DB8"/>
+          <circle cx="32" cy="20" r="8.5" fill="#FFFDF7"/>
+          <path d="M32 15 v10 M27 20 h10" stroke="#3D7DB8" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <div class="num">Guía 1</div>
+        <h3>Matemáticas</h3>
+        <p>Números hasta el millón, multiplicación y división, fracciones y decimales.</p>
+        <div class="pie"><span class="horas">5 horas</span><span class="abrir">Abrir guía</span></div>
+      </a>
+
+      <a class="ficha f-leng" href="./02-Lenguaje.docx">
+        <svg viewBox="0 0 60 70" aria-hidden="true">
+          <path d="M30 68 C28 48 34 36 32 26" fill="none" stroke="#3E8E5A" stroke-width="4" stroke-linecap="round"/>
+          <ellipse cx="46" cy="46" rx="12" ry="7" fill="#3E8E5A" transform="rotate(25 46 46)"/>
+          <path d="M16 6 C16 28 23 36 31 36 C39 36 46 28 46 6 C42 16 39 19 38 3 C34 18 28 18 24 3 C23 19 20 16 16 6 Z" fill="#C2456E"/>
+          <path d="M31 17 C30 26 31 32 31 36" fill="none" stroke="#FFFDF7" stroke-width="2.2" stroke-linecap="round" opacity=".75"/>
+        </svg>
+        <div class="num">Guía 2</div>
+        <h3>Lenguaje</h3>
+        <p>Textos literarios, el poema y sus elementos, y el lenguaje figurado.</p>
+        <div class="pie"><span class="horas">4 horas</span><span class="abrir">Abrir guía</span></div>
+      </a>
+
+      <a class="ficha f-cien" href="./03-Ciencias.docx">
+        <svg viewBox="0 0 60 70" aria-hidden="true">
+          <path d="M30 68 C28 48 33 36 31 28" fill="none" stroke="#3E8E5A" stroke-width="4" stroke-linecap="round"/>
+          <ellipse cx="15" cy="46" rx="12" ry="7" fill="#3E8E5A" transform="rotate(-25 15 46)"/>
+          <path d="M31 30 C11 12 17 1 29 4 C36 6 34 15 31 21 C36 11 48 3 53 10 C59 19 47 30 31 30 Z" fill="#5FB37C" stroke="#FFFDF7" stroke-width="2.4" stroke-linejoin="round"/>
+          <path d="M31 30 C32 22 36 14 45 8" fill="none" stroke="#FFFDF7" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+        <div class="num">Guía 3</div>
+        <h3>Ciencias Naturales</h3>
+        <p>Hábitos de vida saludable, menú saludable y efectos del cigarrillo.</p>
+        <div class="pie"><span class="horas">4 horas</span><span class="abrir">Abrir guía</span></div>
+      </a>
+
+      <a class="ficha f-hist" href="./04-Historia.docx">
+        <svg viewBox="0 0 60 70" aria-hidden="true">
+          <path d="M30 68 C28 48 33 38 31 30" fill="none" stroke="#3E8E5A" stroke-width="4" stroke-linecap="round"/>
+          <ellipse cx="46" cy="48" rx="12" ry="7" fill="#3E8E5A" transform="rotate(25 46 48)"/>
+          <g fill="#C97B2E">
+            <circle cx="31" cy="7" r="8"/><circle cx="45" cy="17" r="8"/>
+            <circle cx="17" cy="17" r="8"/><circle cx="39" cy="30" r="8"/><circle cx="23" cy="30" r="8"/>
+          </g>
+          <circle cx="31" cy="19" r="10" fill="#FFFDF7"/>
+          <path d="M31 12 l3.5 7 -3.5 7 -3.5 -7 Z" fill="#C97B2E"/>
+        </svg>
+        <div class="num">Guía 4</div>
+        <h3>Historia</h3>
+        <p>Descubrimiento y Conquista de América, y la conquista de Chile.</p>
+        <div class="pie"><span class="horas">4 horas</span><span class="abrir">Abrir guía</span></div>
+      </a>
+
+      <a class="ficha f-ingl" href="./05-Ingles.docx">
+        <svg viewBox="0 0 60 70" aria-hidden="true">
+          <path d="M30 68 C28 50 33 40 31 34" fill="none" stroke="#3E8E5A" stroke-width="4" stroke-linecap="round"/>
+          <ellipse cx="15" cy="50" rx="12" ry="7" fill="#3E8E5A" transform="rotate(-25 15 50)"/>
+          <path d="M31 36 C12 36 9 16 20 9 C26 5 31 11 31 17 C31 11 36 5 42 9 C53 16 50 36 31 36 Z" fill="#7A55A6"/>
+          <path d="M31 17 C30 9 34 4 41 3" fill="none" stroke="#3E8E5A" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <div class="num">Guía 5</div>
+        <h3>Inglés</h3>
+        <p>Food vocabulary, likes and dislikes, there is / there are, healthy habits.</p>
+        <div class="pie"><span class="horas">3 horas</span><span class="abrir">Abrir guía</span></div>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="seccion" id="riego">
+    <h2>Riega tu jardín</h2>
+    <p class="intro">Marca cada sesión cuando la termines. Las quince gotas completan el jardín.</p>
+
+    <div class="riego">
+      <div class="marcador">
+        <strong id="cuenta">0</strong>
+        <span>de 15 sesiones regadas</span>
+      </div>
+      <div class="barra"><i id="avance"></i></div>
+
+      <ul class="sesiones" id="lista">
+        <li><label><input type="checkbox" data-s="1"><span>1 · Matemáticas: diagnóstico y números</span></label></li>
+        <li><label><input type="checkbox" data-s="2"><span>2 · Lenguaje: textos literarios</span></label></li>
+        <li><label><input type="checkbox" data-s="3"><span>3 · Ciencias: hábitos saludables</span></label></li>
+        <li><label><input type="checkbox" data-s="4"><span>4 · Historia: el mundo antes de 1492</span></label></li>
+        <li><label><input type="checkbox" data-s="5"><span>5 · Inglés: food vocabulary</span></label></li>
+        <li><label><input type="checkbox" data-s="6"><span>6 · Matemáticas: fracciones y decimales</span></label></li>
+        <li><label><input type="checkbox" data-s="7"><span>7 · Matemáticas: práctica y presupuesto</span></label></li>
+        <li><label><input type="checkbox" data-s="8"><span>8 · Lenguaje: el poema y tu poema</span></label></li>
+        <li><label><input type="checkbox" data-s="9"><span>9 · Ciencias: menú y campaña</span></label></li>
+        <li><label><input type="checkbox" data-s="10"><span>10 · Historia: conquista y línea de tiempo</span></label></li>
+        <li><label><input type="checkbox" data-s="11"><span>11 · Inglés: healthy habits y menú</span></label></li>
+        <li><label><input type="checkbox" data-s="12"><span>12 · Repaso de lo que quedó débil</span></label></li>
+        <li><label><input type="checkbox" data-s="13"><span>13 · Evaluaciones pendientes por guía</span></label></li>
+        <li><label><input type="checkbox" data-s="14"><span>14 · Evaluación Final Integrada</span></label></li>
+        <li><label><input type="checkbox" data-s="15"><span>15 · Revisión y cierre</span></label></li>
+      </ul>
+
+      <button class="reiniciar" id="reiniciar" type="button">Empezar de nuevo</button>
+      <p class="guardado" id="estado" role="status"></p>
+    </div>
+  </section>
+
+  <section class="seccion" id="adulto">
+    <h2>Para quien acompaña</h2>
+    <p class="intro">Dos documentos más, pensados para el adulto que estudia junto a Begonia.</p>
+    <div class="estante">
+      <a class="doc" href="./00-Plan-de-estudio.docx">
+        <strong>Plan de estudio</strong>
+        <span>Calendario completo de las 15 sesiones y recomendaciones de acompañamiento.</span>
+      </a>
+      <a class="doc" href="./06-Evaluacion-final.docx">
+        <strong>Evaluación Final Integrada</strong>
+        <span>55 puntos, las cinco materias, con solucionario y tabla de interpretación.</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="cierre envoltura">
+  <p class="nota"><strong>Para que los enlaces funcionen:</strong> las siete guías se abren desde esta misma página. Si descargas los archivos, mantenlos todos juntos en una carpeta: si mueves uno, el enlace de esa guía deja de abrir.</p>
+  <p>Contenidos alineados a las Bases Curriculares de 5° básico del Ministerio de Educación de Chile.</p>
+  <p>Hecho para Begonia · 2026</p>
+</footer>
+
+<script>
+(function(){
+  var CLAVE = "jardin-begonia-v1";
+  var cajas = Array.prototype.slice.call(document.querySelectorAll('#lista input'));
+  var cuenta = document.getElementById('cuenta');
+  var avance = document.getElementById('avance');
+  var estado = document.getElementById('estado');
+
+  // ¿Este navegador permite guardar? Algunos bloquean el almacenamiento
+  // en ventanas privadas o dentro de visores incrustados.
+  var memoria = (function(){
+    try{
+      localStorage.setItem(CLAVE + "-prueba", "1");
+      localStorage.removeItem(CLAVE + "-prueba");
+      return true;
+    }catch(e){ return false; }
+  })();
+
+  function leer(){
+    if(!memoria) return [];
+    try{ return JSON.parse(localStorage.getItem(CLAVE)) || []; }
+    catch(e){ return []; }
+  }
+
+  function guardar(){
+    var marcadas = cajas.filter(function(c){ return c.checked; })
+                        .map(function(c){ return c.dataset.s; });
+    if(memoria){
+      try{
+        localStorage.setItem(CLAVE, JSON.stringify(marcadas));
+        localStorage.setItem(CLAVE + "-fecha", new Date().toISOString());
+      }catch(e){ memoria = false; }
+    }
+    return marcadas;
+  }
+
+  function fechaLegible(){
+    try{
+      var iso = localStorage.getItem(CLAVE + "-fecha");
+      if(!iso) return "";
+      var d = new Date(iso);
+      if(isNaN(d)) return "";
+      return d.toLocaleDateString("es-CL", { day:"numeric", month:"long" }) +
+             " a las " + d.toLocaleTimeString("es-CL", { hour:"2-digit", minute:"2-digit", hour12:false });
+    }catch(e){ return ""; }
+  }
+
+  function pintarEstado(){
+    if(!memoria){
+      estado.className = "guardado sin-memoria";
+      estado.textContent = "Este navegador no está guardando el avance. Descarga la página y ábrela desde tu carpeta, en una ventana normal.";
+      return;
+    }
+    var f = fechaLegible();
+    estado.className = "guardado";
+    estado.textContent = f
+      ? "Guardado en este navegador el " + f + "."
+      : "Tu avance se guarda en este navegador, aunque cierres la página.";
+  }
+
+  function pintar(){
+    var n = cajas.filter(function(c){ return c.checked; }).length;
+    cuenta.textContent = n;
+    avance.style.width = (n / cajas.length * 100) + "%";
+  }
+
+  var guardadas = leer();
+  cajas.forEach(function(c){
+    if (guardadas.indexOf(c.dataset.s) !== -1) c.checked = true;
+    c.addEventListener('change', function(){
+      guardar();
+      pintar();
+      pintarEstado();
+    });
+  });
+
+  document.getElementById('reiniciar').addEventListener('click', function(){
+    cajas.forEach(function(c){ c.checked = false; });
+    guardar();
+    pintar();
+    pintarEstado();
+  });
+
+  // Si Begonia tiene la página abierta en dos pestañas, se mantienen al día.
+  window.addEventListener('storage', function(ev){
+    if(ev.key !== CLAVE) return;
+    var lista = leer();
+    cajas.forEach(function(c){ c.checked = lista.indexOf(c.dataset.s) !== -1; });
+    pintar();
+    pintarEstado();
+  });
+
+  pintar();
+  pintarEstado();
+})();
+</script>
+</body>
+</html>
