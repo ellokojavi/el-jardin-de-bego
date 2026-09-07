@@ -95,6 +95,8 @@ Cuenta cualquier movimiento que acelere la respiración: caminar al colegio, and
 | Aceites y semillas | Aceite de oliva, palta, nueces | Grasas saludables |
 | Azúcares y grasas | Golosinas, frituras, bebidas | Solo energía, sin nutrientes. Consumo ocasional |
 
+![Cada color de fruta o verdura aporta nutrientes distintos. Por eso la recomendación no es solo comer cinco porciones al día, sino que sean de colores variados. Lámina hecha para esta guía.](imagenes/frutas-por-color.png)
+
 ### El etiquetado chileno
 
 La **Ley 20.606**, conocida como Ley de Etiquetado de Alimentos, obliga a poner sellos octogonales negros en los envases cuyos productos superan ciertos límites. Los cuatro sellos son:
@@ -153,6 +155,8 @@ Una manera simple de equilibrar cualquier almuerzo o cena:
 Y siempre, al lado: **un vaso de agua**, no jugo ni bebida.
 
 Aquí las fracciones de Matemáticas aparecen en la vida real: 1/2 + 1/4 + 1/4 = 1 plato completo.
+
+![El modelo del plato: la mitad verduras y frutas, un cuarto proteínas y un cuarto cereales o papas, con agua para acompañar. Lámina hecha para esta guía.](imagenes/plato-modelo.png)
 
 ![Un almuerzo armado según el modelo del plato: la mitad verduras, un cuarto proteína y un cuarto cereales o papas. Foto del USDA, dominio público.](imagenes/plato-completo.jpg)
 
@@ -215,7 +219,7 @@ El humo del cigarrillo contiene más de 7.000 sustancias químicas, y alrededor 
 
 **Otros efectos visibles:** mal aliento, dientes amarillos, menor sentido del gusto y del olfato, piel envejecida antes de tiempo y menos resistencia física al hacer deporte.
 
-![Los pulmones y los bronquios que llevan el aire hasta los alvéolos. Es el sistema que más daña el humo del cigarrillo. Ilustración del NIH, dominio público.](imagenes/pulmones.png)
+![Los pulmones, la tráquea y los bronquios que llevan el aire hasta los alvéolos. Es el sistema que más daña el humo del cigarrillo. Ilustración del NIH, dominio público, rotulada para esta guía.](imagenes/pulmones.png)
 
 ### El fumador pasivo
 
