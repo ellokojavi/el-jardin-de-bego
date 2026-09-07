@@ -1,4 +1,4 @@
-# El jardín de Begonia
+# El jardín de Bego
 
 Materiales de repaso para 5° básico, alineados a las Bases Curriculares del Ministerio de Educación de Chile. Cubren lo pasado entre marzo y septiembre de 2026 en cinco asignaturas, organizados en un plan de tres semanas y unas 20 horas de estudio.
 

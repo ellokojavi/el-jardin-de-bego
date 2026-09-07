@@ -2,7 +2,7 @@
 
 **Las cinco asignaturas · Semana 3**
 
-Begonia · 5° básico · Repaso 2026
+Bego · 5° básico · Repaso 2026
 
 **Instrucciones.** Trabaja con lápiz y goma. Lee cada pregunta completa antes de responder. Si una pregunta pide explicar, responde con una oración completa. Puedes usar hoja aparte para los cálculos.
 
@@ -213,4 +213,4 @@ Begonia · 5° básico · Repaso 2026
 | 25 a 35 | Contenidos parcialmente logrados | Rehacer las secciones indicadas en las guías correspondientes |
 | Menos de 25 | Se requiere repaso completo | Volver a la Semana 1 del plan con sesiones más cortas |
 
-**Nota para el adulto.** Conviene revisar la evaluación junto a Begonia el mismo día, pregunta por pregunta. El objetivo no es la nota, sino identificar con precisión qué contenido volver a trabajar. La tabla de remediación de cada guía indica exactamente a qué sección regresar.
+**Nota para el adulto.** Conviene revisar la evaluación junto a Bego el mismo día, pregunta por pregunta. El objetivo no es la nota, sino identificar con precisión qué contenido volver a trabajar. La tabla de remediación de cada guía indica exactamente a qué sección regresar.

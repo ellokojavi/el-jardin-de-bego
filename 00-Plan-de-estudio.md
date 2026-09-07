@@ -1,8 +1,8 @@
 # Plan de estudio de tres semanas
 
-**Begonia · 5° básico · Repaso marzo–septiembre 2026**
+**Bego · 5° básico · Repaso marzo–septiembre 2026**
 
-Este plan organiza el repaso de las cinco asignaturas que Begonia ha trabajado durante el primer semestre, siguiendo las Bases Curriculares del Ministerio de Educación de Chile para 5° básico.
+Este plan organiza el repaso de las cinco asignaturas que Bego ha trabajado durante el primer semestre, siguiendo las Bases Curriculares del Ministerio de Educación de Chile para 5° básico.
 
 **Duración total estimada:** 20 horas de estudio, repartidas en 15 sesiones de trabajo.
 
@@ -18,7 +18,7 @@ El plan avanza en tres etapas, una por semana:
 | 2 | Profundizar | Ejercicios graduados y actividades centrales. Se aplica lo aprendido en tareas más largas. |
 | 3 | Consolidar | Repaso de los puntos débiles detectados y evaluación final integrada. |
 
-Cada guía trae su propio **solucionario para el adulto** al final, después de un salto de página, para que Begonia pueda trabajar sin ver las respuestas.
+Cada guía trae su propio **solucionario para el adulto** al final, después de un salto de página, para que Bego pueda trabajar sin ver las respuestas.
 
 ---
 
@@ -72,7 +72,7 @@ Cada guía trae su propio **solucionario para el adulto** al final, después de 
 
 Las guías están conectadas a propósito. Vale la pena hacerlas notar cuando aparezcan:
 
-- El **menú saludable** que Begonia diseña en Ciencias se traduce al inglés en la guía 5.
+- El **menú saludable** que Bego diseña en Ciencias se traduce al inglés en la guía 5.
 - Las **fracciones** de Matemáticas reaparecen en el modelo del plato saludable de Ciencias (medio plato, un cuarto, un cuarto).
 - Los **viajes de Colón** de Historia se trabajan con distancias y números grandes en Matemáticas.
 - El poema **"Barco de papel"** de Lenguaje conversa con los viajes de exploración de Historia.
@@ -82,6 +82,6 @@ Las guías están conectadas a propósito. Vale la pena hacerlas notar cuando ap
 ## Recomendaciones para el adulto que acompaña
 
 - Sesiones de 45 a 60 minutos, con una pausa a la mitad. Más tiempo seguido rinde menos.
-- Corregir junto a Begonia, no después. El error explicado en el momento es el que se aprende.
+- Corregir junto a Bego, no después. El error explicado en el momento es el que se aprende.
 - Las tablas de remediación al final de cada guía indican exactamente a qué sección volver según los errores.
 - Si una sección resulta fácil, se puede saltar la práctica de nivel 1 e ir directo al nivel 2.

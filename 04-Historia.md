@@ -2,7 +2,7 @@
 
 **Descubrimiento y Conquista de América**
 
-Begonia · 5° básico · Repaso 2026
+Bego · 5° básico · Repaso 2026
 
 **Objetivos de Aprendizaje (Bases Curriculares, Mineduc — Unidad 2)**
 

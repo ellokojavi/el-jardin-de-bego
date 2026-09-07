@@ -2,7 +2,7 @@
 
 **Textos literarios, el poema y sus elementos**
 
-Begonia · 5° básico · Repaso 2026
+Bego · 5° básico · Repaso 2026
 
 **Objetivos de Aprendizaje (Bases Curriculares, Mineduc)**
 

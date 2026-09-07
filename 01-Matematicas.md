@@ -2,7 +2,7 @@
 
 **Números hasta el millón, multiplicación y división, fracciones y decimales**
 
-Begonia · 5° básico · Repaso 2026
+Bego · 5° básico · Repaso 2026
 
 **Objetivos de Aprendizaje (Bases Curriculares, Mineduc)**
 
@@ -204,7 +204,7 @@ Se busca una fracción equivalente con denominador 10, 100 o 1000.
 3. ¿Qué valor tiene el 5 en 2,357?
 4. Ordena de menor a mayor: 0,9 · 0,09 · 0,901 · 0,19
 5. Calcula: a) 5,64 + 12,9 b) 20 − 7,35 c) 3,5 + 0,75 + 1,2 d) 8,04 − 3,7
-6. Begonia corrió 2,8 km el lunes y 3,45 km el miércoles. ¿Cuántos kilómetros corrió en total? ¿Cuánto más corrió el miércoles que el lunes?
+6. Bego corrió 2,8 km el lunes y 3,45 km el miércoles. ¿Cuántos kilómetros corrió en total? ¿Cuánto más corrió el miércoles que el lunes?
 
 ---
 
@@ -230,7 +230,7 @@ Se busca una fracción equivalente con denominador 10, 100 o 1000.
 
 1. Un tren recorre 1.245 km cada día. ¿Cuántos kilómetros recorre en 21 días?
 2. Una biblioteca tiene 12.480 libros y los ordena en estantes de 96 libros cada uno. ¿Cuántos estantes necesita?
-3. Begonia leyó 2/5 de un libro de 240 páginas el lunes y 1/4 del libro el martes. ¿Cuántas páginas leyó en total? ¿Qué fracción del libro le queda por leer?
+3. Bego leyó 2/5 de un libro de 240 páginas el lunes y 1/4 del libro el martes. ¿Cuántas páginas leyó en total? ¿Qué fracción del libro le queda por leer?
 4. Tres corredoras recorrieron 3,75 km, 4,2 km y 3,08 km. ¿Cuál es el total? ¿Cuánto más corrió la primera que la tercera?
 5. Un frasco de miel pesa 0,65 kg. ¿Cuánto pesan 4 frascos iguales?
 
@@ -238,7 +238,7 @@ Se busca una fracción equivalente con denominador 10, 100 o 1000.
 
 ## Actividad central · El presupuesto de la once de curso
 
-Begonia organiza la once de fin de semestre para su curso de **24 estudiantes**. Estos son los datos:
+Bego organiza la once de fin de semestre para su curso de **24 estudiantes**. Estos son los datos:
 
 | Producto | Detalle | Precio unitario |
 |---|---|---|
@@ -272,7 +272,7 @@ Resuelve mostrando el procedimiento. Cada pregunta vale 1 punto.
 9. Ordena de menor a mayor: 1,05 · 1,5 · 0,95 · 1,055
 10. Calcula 14,2 − 6,78.
 11. Un camión transporta 1.350 cajas por viaje y hace 16 viajes. ¿Cuántas cajas transporta en total?
-12. Begonia gastó 3/10 de su mesada en un libro y 2/5 en un regalo. ¿Qué fracción de la mesada gastó? ¿Qué fracción le quedó?
+12. Bego gastó 3/10 de su mesada en un libro y 2/5 en un regalo. ¿Qué fracción de la mesada gastó? ¿Qué fracción le quedó?
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>

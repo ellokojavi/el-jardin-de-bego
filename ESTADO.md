@@ -23,6 +23,6 @@ historial git.
   documentos incluyen los solucionarios).
 - **Publicar en GitHub**: `git remote add origin ...` + `git push -u origin main`, o
   `gh repo create` en un paso. Luego activar Pages sobre `main` / raíz.
-- **Empezar el plan con Begonia** — 15 sesiones, tres semanas.
+- **Empezar el plan con Bego** — 15 sesiones, tres semanas.
 - Opcional: completar `referencia/curriculum-mineduc.md` con los OA textuales por
   asignatura, para poder trazar cada guía contra su objetivo curricular.

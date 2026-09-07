@@ -1,6 +1,6 @@
-# El jardín de Begonia — repaso de 5° básico
+# El jardín de Bego — repaso de 5° básico
 
-Materiales de repaso para Begonia (11 años), alineados a las Bases Curriculares del
+Materiales de repaso para Bego (11 años), alineados a las Bases Curriculares del
 Ministerio de Educación de Chile para 5° básico. Cubren lo que su curso pasó entre
 **marzo y septiembre de 2026** en cinco asignaturas, en un plan de **tres semanas /
 15 sesiones / ~20 horas**.
