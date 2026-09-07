@@ -70,8 +70,22 @@ def envolver_ahora(h: str) -> str:
     return "".join(partes)
 
 
+def envolver_palabras(h: str) -> str:
+    """Agrupa cada bloque '📖 Palabras nuevas' en su propia caja."""
+    pat = re.compile(r"<h4[^>]*>[^<]*Palabras nuevas[^<]*</h4>", re.I)
+    partes, pos = [], 0
+    for m in pat.finditer(h):
+        partes.append(h[pos:m.start()])
+        sig = re.search(r"<h[1234][\s>]", h[m.end():])
+        fin = m.end() + (sig.start() if sig else len(h) - m.end())
+        partes.append('<section class="palabras">' + h[m.start():fin].rstrip() + "</section>\n")
+        pos = fin
+    partes.append(h[pos:])
+    return "".join(partes)
+
+
 def procesar(h: str) -> str:
-    return envolver_ahora(envolver_tablas(h))
+    return envolver_ahora(envolver_palabras(envolver_tablas(h)))
 
 
 def separar_portada(md: str):
