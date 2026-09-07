@@ -19,6 +19,17 @@ Todos los textos de esta guía son originales, escritos especialmente para este 
 
 ## Diagnóstico de entrada
 
+#### 📖 Palabras nuevas
+
+**Género literario.** Una de las tres grandes familias en que se agrupan los textos literarios según su forma: narrativo (cuentos), lírico (poemas) y dramático (obras de teatro).
+
+**Verso.** Cada línea de un poema. En «Barco de papel», «le puse un mástil de sal» es un verso.
+
+**Figura literaria.** Un truco del lenguaje para decir algo de manera más bonita o sorprendente, como cuando dices «el sol me sonríe» en vez de «hay sol».
+
+**Hablante lírico.** La voz imaginaria que habla dentro de un poema, como un personaje inventado. No es la persona que escribió el poema.
+
+
 1. ¿Qué diferencia hay entre un texto literario y uno no literario? ____________________
 2. Nombra los tres géneros literarios. ____________________
 3. ¿Cómo se llama cada línea de un poema? ____________________
@@ -54,6 +65,19 @@ Todos los textos de esta guía son originales, escritos especialmente para este 
 > El faro llevaba once años apagado y nadie en el pueblo recordaba por qué. Emilia subió los ciento veinte escalones con la linterna en la boca, porque necesitaba las dos manos para no resbalar. Arriba encontró lo que esperaba encontrar: polvo, gaviotas y un cuaderno. Lo que no esperaba era que el cuaderno tuviera su nombre escrito en la primera página.
 
 Aquí hay un **narrador** que no participa de la historia, una **protagonista** (Emilia), un **espacio** (el faro) y un conflicto que recién empieza.
+
+#### 📖 Palabras nuevas
+
+**Ficticio.** Que es inventado, que no pasó de verdad. Los personajes de un cuento son ficticios aunque se parezcan a personas reales.
+
+**Comprobable.** Que puedes revisar si es cierto o no. Que la Antártica es fría es comprobable; que un zorro hable, no.
+
+**Fábula.** Un relato corto, casi siempre con animales que hablan, que termina dejándote una enseñanza.
+
+**Desenlace.** La parte final de una historia, donde se resuelve el problema y sabes cómo terminó todo.
+
+**Acotación.** En una obra de teatro, la indicación escrita que dice cómo tienen que actuar o moverse los personajes, por ejemplo «(entra corriendo, asustada)».
+
 
 ### ✏️ Ahora tú
 
@@ -101,6 +125,19 @@ En este poema riman el segundo y el cuarto verso de cada estrofa. El primero y e
 
 **Ritmo.** La música que se produce al leer, por la cantidad de sílabas y los acentos. Se escucha mejor leyendo en voz alta.
 
+#### 📖 Palabras nuevas
+
+**Mástil.** El palo largo y parado de un barco, del que cuelga la vela.
+
+**Timón.** La pieza con que se maneja un barco para decidir hacia dónde va, parecida a un volante.
+
+**Estrofa.** Un grupo de versos separado de los demás por un espacio en blanco, como si fuera un párrafo del poema.
+
+**Rima consonante.** Cuando dos versos terminan con exactamente los mismos sonidos desde la última vocal fuerte, como «timón» y «corazón».
+
+**Rima asonante.** Cuando dos versos terminan con las mismas vocales pero distintas consonantes, como «sal» y «mar».
+
+
 ### ✏️ Ahora tú
 
 1. ¿Cuántas estrofas y cuántos versos tiene "Barco de papel"?
@@ -120,6 +157,15 @@ En este poema riman el segundo y el cuarto verso de cada estrofa. El primero y e
 **Motivo lírico.** El sentimiento o la idea central que provoca el poema. Aquí no es realmente el barco: es la **imaginación que convierte lo pequeño en enorme**, y la decisión de volver a empezar aunque las cosas se deshagan.
 
 Una pregunta útil para encontrar el motivo lírico: *si el poema tuviera que resumirse en un sentimiento, ¿cuál sería?*
+
+#### 📖 Palabras nuevas
+
+**Objeto lírico.** La cosa, persona o situación de la que habla el poema. En «Barco de papel» es el barquito.
+
+**Motivo lírico.** El sentimiento o la idea principal que hay detrás del poema: lo que el poema realmente quiere transmitirte.
+
+**Justificar.** Explicar por qué diste esa respuesta, mostrando la parte del texto en que te apoyaste.
+
 
 ### ✏️ Ahora tú
 
@@ -160,6 +206,19 @@ El lenguaje figurado dice las cosas de manera indirecta, para que el lector imag
 > como plumas de gorrión, \
 > y despierta a las semillas \
 > que dormían en el balcón.
+
+#### 📖 Palabras nuevas
+
+**Lenguaje figurado.** Cuando las palabras no se entienden al pie de la letra, sino que dicen algo de manera indirecta: «estoy muerta de sueño» no significa que estés muerta.
+
+**Nexo.** La palabrita que une dos cosas para compararlas: «como», «parece», «igual que».
+
+**Metáfora.** Cuando llamas a algo con el nombre de otra cosa que se le parece, sin usar «como»: «tus ojos son dos faroles».
+
+**Personificación.** Cuando le das acciones o cualidades de persona a algo que no lo es: «el viento silba», «las semillas dormían».
+
+**Hipérbole.** Una exageración enorme y a propósito: «grité tan fuerte que me escucharon en Arica».
+
 
 ### ✏️ Ahora tú
 
@@ -202,6 +261,15 @@ Cuando termines, completa esta ficha de tu propio poema:
 ---
 
 ## Evaluación integradora
+
+#### 📖 Palabras nuevas
+
+**Almíbar.** Un líquido dulce y espeso, hecho de agua con azúcar, en que se conservan las frutas dentro del frasco.
+
+**Mesón.** El mueble largo y plano de la cocina donde se cocina y se apoyan las cosas.
+
+**Refunfuñar.** Quejarse en voz baja y de mala gana, murmurando porque algo no te gustó.
+
 
 **Lee este poema original y responde.**
 

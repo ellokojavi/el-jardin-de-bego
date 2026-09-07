@@ -15,6 +15,15 @@ Bego · 5° básico · Repaso 2026
 
 ## Diagnóstico de entrada
 
+#### 📖 Palabras nuevas
+
+**Envase.** El paquete, la caja o la botella donde viene un alimento, con la información impresa afuera. Por ejemplo, la caja de los cereales.
+
+**Sustancia.** Un material del que están hechas las cosas, aunque no siempre lo puedas ver. El humo del cigarrillo tiene muchas sustancias mezcladas.
+
+**Sistema del cuerpo.** Un grupo de órganos que trabajan juntos para una misma tarea. La nariz, la tráquea y los pulmones forman el sistema respiratorio.
+
+
 1. Nombra tres hábitos de vida saludable. ____________________
 2. ¿Cuántos minutos de actividad física necesita al día una niña de tu edad? ____________________
 3. ¿Qué significan los sellos negros "ALTO EN" de los envases? ____________________
@@ -47,6 +56,19 @@ La falta sostenida de estos hábitos produce **sedentarismo**, sobrepeso, cansan
 ### Actividad física no es solo deporte
 
 Cuenta cualquier movimiento que acelere la respiración: caminar al colegio, andar en bicicleta, bailar, subir escaleras, jugar a la pelota en el recreo. Lo importante es la **suma del día**, no una sola sesión.
+
+#### 📖 Palabras nuevas
+
+**Nutriente.** La parte útil de los alimentos que tu cuerpo aprovecha para crecer y tener energía, como las proteínas o el calcio de la leche.
+
+**Agente infeccioso.** Los microbios muy chiquititos, como las bacterias y los virus, que te pueden enfermar. Por eso lavarse las manos ayuda tanto.
+
+**Tejido.** El material del que están hechas las partes de tu cuerpo, como la piel o los músculos. Cuando te haces una herida, el cuerpo repara ese tejido.
+
+**Sedentarismo.** Pasar casi todo el día sentada o acostada, moviéndote muy poco. Es lo contrario de una vida activa.
+
+**Enfermedad cardiovascular.** Una enfermedad del corazón o de los tubos por donde corre la sangre. Aparece sobre todo en adultos que se movieron poco y comieron mal por muchos años.
+
 
 ### ✏️ Ahora tú
 
@@ -87,6 +109,19 @@ Los sellos no dicen "prohibido". Dicen **"consume poco y de vez en cuando"**. Ad
 1. Mirar cuántos sellos tiene: mientras menos, mejor.
 2. Revisar la lista de ingredientes: van ordenados de mayor a menor cantidad. Si el azúcar aparece entre los tres primeros, el producto tiene mucha azúcar.
 3. Mirar la porción: la información nutricional suele estar calculada por porción, no por envase completo.
+
+#### 📖 Palabras nuevas
+
+**Hidrato de carbono.** Lo que le da energía rápida a tu cuerpo, como un combustible. Está en el pan, el arroz, los fideos y las papas.
+
+**Fibra.** Una parte de las frutas, verduras y legumbres que tu cuerpo no digiere, pero que ayuda a que la guata funcione bien.
+
+**Sodio.** Lo que hace salada a la sal. Si comes mucho, con los años te puede subir la presión de la sangre.
+
+**Grasa saturada.** El tipo de grasa que hace mal al corazón cuando se come mucho. Está en las frituras, las galletas y los embutidos como las salchichas.
+
+**Porción.** La cantidad que se supone que comes de una vez, no todo el paquete. Un envase de galletas puede traer cuatro porciones adentro.
+
 
 ### ✏️ Ahora tú
 
@@ -130,6 +165,19 @@ Aquí las fracciones de Matemáticas aparecen en la vida real: 1/2 + 1/4 + 1/4 =
 - Reemplazar el agua por jugo envasado, que suele llevar sello ALTO EN AZÚCARES.
 - Olvidar la fruta: es la más fácil de dejar afuera y la que más aporta fibra y vitaminas.
 - Creer que "light" o "natural" significa "sin sellos". Hay que revisar el envase.
+
+#### 📖 Palabras nuevas
+
+**Integral.** Se dice de un pan o cereal hecho con el grano completo, sin sacarle la cáscara. Tiene más fibra que el pan blanco.
+
+**Liviana.** Una comida liviana es suave y no muy abundante, fácil de digerir. Por eso la cena liviana te ayuda a dormir mejor.
+
+**Envasado.** Un producto que viene ya preparado dentro de una caja, tarro o botella. Un jugo envasado no es lo mismo que exprimir una naranja.
+
+**Light.** Palabra en inglés que ponen en algunos productos para decir que tienen menos azúcar o menos grasa que el original. No significa que sea sano ni que no tenga sellos.
+
+**Rotular.** Ponerle un nombre o una etiqueta a cada parte de un dibujo, para que se entienda qué es cada cosa.
+
 
 ### ✏️ Ahora tú
 
@@ -177,6 +225,19 @@ Nadie empieza a fumar por gusto: casi siempre es por presión del grupo. Estas e
 4. **Buscar aliados.** Estar con amigos que tampoco fuman hace todo más fácil.
 5. **Contarle a un adulto de confianza** si la presión se repite.
 
+#### 📖 Palabras nuevas
+
+**Cancerígeno.** Se dice de algo que puede provocar cáncer, una enfermedad grave en que unas células del cuerpo crecen sin control.
+
+**Nicotina.** Una sustancia que trae el tabaco del cigarrillo y que engancha al cuerpo, o sea, lo hace querer más. Además acelera el corazón.
+
+**Adicción.** Cuando el cuerpo se acostumbra tanto a algo que ya no puede dejarlo, aunque la persona quiera. Por eso a los fumadores les cuesta tanto parar.
+
+**Enfisema.** Una enfermedad de los pulmones en que se dañan para siempre y la persona queda ahogada con cualquier esfuerzo, como subir una escalera.
+
+**Alvéolo.** Unas bolsitas diminutas que están al final de los pulmones, donde el aire pasa a la sangre. Son como globitos que se inflan y desinflan al respirar.
+
+
 ### ✏️ Ahora tú
 
 1. Nombra las tres sustancias principales del humo del cigarrillo y di qué hace cada una.
@@ -191,6 +252,13 @@ Nadie empieza a fumar por gusto: casi siempre es por presión del grupo. Estas e
 
 ## Actividad central · La campaña de curso
 
+#### 📖 Palabras nuevas
+
+**Plana.** Una hoja completa, de un solo lado. «De una plana» significa que tu afiche tiene que caber en una hoja.
+
+**Esquema.** Un dibujo simple con las partes principales y sus nombres, sin adornos. Sirve para explicar algo de una mirada.
+
+
 Diseña un **afiche de campaña** para el diario mural, de una plana, que cumpla lo siguiente:
 
 1. Un **título breve y potente** (máximo 6 palabras).
@@ -204,6 +272,13 @@ Al terminar, escribe abajo en tres líneas: ¿a quién está dirigido tu afiche 
 ---
 
 ## Evaluación integradora
+
+#### 📖 Palabras nuevas
+
+**Regular.** Cuando una ley regula algo, pone las reglas de cómo se debe hacer. La ley chilena regula qué sellos tienen que llevar los alimentos.
+
+**Advertencia.** Un aviso que te alerta de algo que puede hacerte mal. Los sellos negros son una advertencia, no una prohibición.
+
 
 1. Nombra los cinco pilares de una vida saludable y una recomendación concreta para cada uno.
 2. ¿Qué grupo de alimentos aporta las proteínas? Nombra tres ejemplos.

@@ -42,6 +42,28 @@ verificación), `LICENSE` (CC BY-NC-SA 4.0), `.nojekyll` (para GitHub Pages).
 El solucionario va siempre en páginas aparte para poder imprimir solo la parte de la
 estudiante.
 
+## Vocabulario: los bloques "📖 Palabras nuevas"
+
+Bego se traba con palabras que las guías daban por sabidas ("sedentarismo", "nicotina",
+"encomienda", "hablante lírico"). Por eso cada sección lleva un bloque de vocabulario.
+
+- En el Markdown es un encabezado `#### 📖 Palabras nuevas` seguido de una definición
+  por párrafo, con la palabra en negrita y punto: `**Sedentarismo.** Pasar casi todo el
+  día sentada…`
+- **Dónde va:** justo antes del `### ✏️ Ahora tú` de esa sección, para que lea el
+  contenido, aclare las palabras y recién después practique. En las secciones sin
+  ejercicios (evaluaciones, actividad central) va inmediatamente después del encabezado
+  de sección.
+- **Nunca dentro del solucionario.** Es material para Bego, no para el adulto.
+- En la web, `scripts/build-web.py` agrupa cada bloque en una caja azul (`.palabras`).
+  En el `.docx` sale como subtítulo más definiciones. No hay que hacer nada extra.
+- Criterio para incluir una palabra: término técnico de la asignatura, palabra de
+  español general poco frecuente a los 11 años, o palabra en inglés nueva (en ese caso
+  la definición da el significado y la pronunciación aproximada a la chilena). Se
+  excluye lo que el propio texto ya explica en el momento. Entre 2 y 5 por sección.
+- Al agregar contenido nuevo a una guía, revisar si necesita palabras nuevas en su
+  bloque.
+
 ## Reglas de contenido
 
 - Español de Chile, natural para una niña de 11 años, sin infantilizar. La guía de

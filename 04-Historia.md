@@ -57,6 +57,19 @@ Las causas principales fueron:
 
 Los sabios de la época ya sabían que la Tierra era esférica. Lo que Colón calculó **mal** fue su tamaño: creyó que Asia estaba mucho más cerca navegando hacia el oeste. Ese error lo llevó a un continente que los europeos no conocían.
 
+#### 📖 Palabras nuevas
+
+**Especia.** Semilla, hoja o corteza de olor y sabor fuerte que se usa para condimentar la comida, como la canela o la pimienta. Hace 500 años eran carísimas en Europa.
+
+**Astrolabio.** Un instrumento antiguo, como un disco de metal con marcas, que servía para saber en qué parte del mundo estabas mirando el sol o las estrellas.
+
+**Carabela.** Un barco a vela pequeño, liviano y rápido que usaban españoles y portugueses hace más de 500 años para viajar lejos por el mar.
+
+**Latitud.** Qué tan al norte o al sur estás en el planeta. Arica tiene una latitud distinta a la de Punta Arenas.
+
+**Esférica.** Que tiene forma de pelota. Decir que la Tierra es esférica es decir que es redonda como una naranja, no plana.
+
+
 ### ✏️ Ahora tú
 
 1. ¿Qué buscaban los europeos al lanzarse al mar? Nombra dos productos.
@@ -90,6 +103,19 @@ El continente terminó llamándose **América** por Américo Vespucio, el navega
 ### El reparto del mundo
 
 Para evitar la guerra entre Portugal y Castilla, el **Tratado de Tordesillas (1494)** trazó una línea imaginaria en el Atlántico: lo que quedara al este sería portugués, y al oeste, castellano. Por eso hoy en Brasil se habla portugués y en el resto de Sudamérica, español.
+
+#### 📖 Palabras nuevas
+
+**Navegante.** Una persona que viaja por el mar en barco y sabe guiarlo, como los marinos que cruzaron el océano hace 500 años.
+
+**Capitulación.** Un acuerdo escrito y firmado entre un rey y alguien que iba a hacer un viaje o una conquista, donde se anotaba qué recibiría cada uno.
+
+**Zarpar.** Salir un barco del puerto para empezar un viaje. Colón zarpó de España en agosto de 1492.
+
+**Estrecho.** Un paso de mar angosto entre dos tierras, como un pasillo de agua. El Estrecho de Magallanes está en el extremo sur de Chile.
+
+**Expedición.** Un viaje largo y organizado que hace un grupo de personas con un objetivo, como explorar un lugar desconocido o buscar riquezas.
+
 
 ### ✏️ Ahora tú
 
@@ -134,6 +160,21 @@ No fue una sola razón, sino la suma de varias:
 | **Mita** | Turnos obligatorios de trabajo, sobre todo en minas. Existía antes en el mundo andino, pero los españoles la volvieron mucho más dura. |
 
 Algunas voces se opusieron desde el principio. El fraile **Bartolomé de las Casas** denunció los abusos ante la Corona, lo que llevó a dictar las **Leyes Nuevas** (1542), que en la práctica se cumplieron poco.
+
+#### 📖 Palabras nuevas
+
+**Someter.** Obligar por la fuerza a un grupo de personas a obedecer y hacer lo que uno manda, aunque ellos no quieran.
+
+**Arcabuz.** Un arma de fuego antigua, larga y pesada, que se cargaba con pólvora. Era la tatarabuela de las escopetas de hoy.
+
+**Encomienda.** Un sistema en que un grupo de indígenas quedaba a cargo de un español: ellos trabajaban gratis para él y él debía cuidarlos, pero en la práctica era trabajo forzado.
+
+**Tributo.** Un pago obligatorio que la gente tenía que entregar al que mandaba, en dinero, comida, oro o productos que ellos mismos hacían.
+
+**Evangelizar.** Enseñar la religión cristiana a personas que tenían otras creencias, para que se convirtieran a ella.
+
+**Corona.** Aquí no significa el objeto que se pone en la cabeza, sino el rey y su gobierno. «Denunciar ante la Corona» es reclamar ante el rey.
+
 
 ### ✏️ Ahora tú
 
@@ -184,6 +225,21 @@ El poeta soldado **Alonso de Ercilla** escribió *La Araucana*, poema épico que
 | Papa, maíz, tomate, cacao, poroto, ají, tabaco, quinua | Trigo, arroz, caña de azúcar, vid, caballo, vaca, oveja, gallina |
 
 Muchas palabras del español de Chile vienen del mapudungun y del quechua: *guagua, cahuín, pilucho, poto, laucha, pololo, charqui, guata*.
+
+#### 📖 Palabras nuevas
+
+**Travesía.** Un viaje largo y difícil por un lugar duro de cruzar, como atravesar la cordillera a pie o el mar en barco.
+
+**Cacique.** El jefe de un pueblo indígena, el que mandaba y tomaba las decisiones para su comunidad.
+
+**Toqui.** El jefe militar que los mapuche elegían para dirigirlos en tiempos de guerra. Caupolicán fue toqui.
+
+**Poema épico.** Un poema muy largo que cuenta hazañas de guerreros y batallas, como una película de aventuras escrita en versos.
+
+**Mestizaje.** La mezcla entre españoles e indígenas, tanto de familias como de costumbres, comidas y palabras. De ahí viene la mayoría de la gente en Chile.
+
+**Vid.** La planta de la que salen las uvas, con la que también se hace el vino. Llegó a Chile desde Europa.
+
 
 ### ✏️ Ahora tú
 

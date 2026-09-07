@@ -17,6 +17,15 @@ Bego · 5° básico · Repaso 2026
 
 ## Diagnóstico de entrada
 
+#### 📖 Palabras nuevas
+
+**Diagnóstico.** Una revisión rápida para ver qué sabes y qué te falta, antes de empezar a estudiar. No es una prueba con nota.
+
+**Valor.** Cuando se pregunta «¿qué valor tiene el 6?», se pregunta cuánto vale ese número según el lugar donde está. En 763.400 el 6 vale 60.000.
+
+**Calcular.** Hacer la operación y llegar al resultado. Calcular 1.204 × 5 es lo mismo que decir «resuelve esta multiplicación».
+
+
 Resuelve sin ayuda. No importa si algo no sale: sirve para saber por dónde empezar.
 
 1. Escribe con palabras el número 408.150. ______________________________________
@@ -60,6 +69,19 @@ Se mira la cifra que está **a la derecha** de la posición a la que se redondea
 - 462.750 redondeado a la **unidad de mil**: se mira el 7 → sube → **463.000**
 - 462.750 redondeado a la **decena de mil**: se mira el 2 → se mantiene → **460.000**
 
+#### 📖 Palabras nuevas
+
+**Cifra.** Cada uno de los números sueltos que forman un número más grande. 386.412 tiene seis cifras: 3, 8, 6, 4, 1 y 2.
+
+**Posicional.** Que depende del lugar. En 55, el primer 5 vale 50 y el segundo vale 5: la misma cifra vale distinto según dónde esté.
+
+**Descomponer.** Separar un número en las partes que lo forman y sumarlas. 245 se descompone en 200 + 40 + 5.
+
+**Sumando.** Cada uno de los números que se suman. En 200 + 40 + 5, los sumandos son 200, 40 y 5.
+
+**Antecesor y sucesor.** El antecesor es el número que viene justo antes y el sucesor el que viene justo después. De 50, el antecesor es 49 y el sucesor 51.
+
+
 ### ✏️ Ahora tú
 
 1. Escribe con palabras: a) 204.070 b) 715.309 c) 1.000.000
@@ -101,6 +123,19 @@ Dividir es repartir en partes iguales o averiguar cuántas veces cabe un número
 | Repartir en partes iguales | División |
 | Averiguar cuántos grupos se forman | División |
 | Calcular el total de filas por columnas | Multiplicación |
+
+#### 📖 Palabras nuevas
+
+**Multiplicador.** En 1.245 × 36, el multiplicador es el 36: el número que dice cuántas veces se repite el otro.
+
+**Resultado parcial.** Un resultado a medio camino, que todavía no es la respuesta final. Después hay que juntarlo con los otros para llegar al total.
+
+**División exacta.** Cuando el reparto sale justo y no sobra nada, es decir, el resto es 0. 12 ÷ 4 = 3 es exacta; 13 ÷ 4 no lo es.
+
+**Dividendo, divisor y cociente.** En 20 ÷ 4 = 5: el dividendo es 20 (lo que repartes), el divisor es 4 (entre cuántos repartes) y el cociente es 5 (lo que le toca a cada uno).
+
+**Comprobación.** Revisar si tu resultado está bien haciendo la operación al revés. Si 20 ÷ 4 = 5, compruebas multiplicando 4 × 5 y te tiene que dar 20.
+
 
 ### ✏️ Ahora tú
 
@@ -152,6 +187,19 @@ Solo se pueden sumar partes del mismo tamaño, es decir, con el mismo denominado
 - Denominadores relacionados: 1/2 + 1/4 → 2/4 + 1/4 = **3/4**
 - Otro ejemplo: 5/6 − 1/3 → 5/6 − 2/6 = 3/6 = **1/2**
 
+#### 📖 Palabras nuevas
+
+**Entero.** La cosa completa, antes de partirla. Una pizza entera es 1 entero; si la partes en 4 y te comes 1, comiste 1/4 del entero.
+
+**Fracción propia.** Una fracción que vale menos que un entero, porque tomas menos partes de las que hay. 5/9 es propia: partiste en 9 y tomaste solo 5.
+
+**Fracción impropia.** Una fracción que vale 1 o más, porque tomas tantas partes o más de las que forman un entero. 11/7 es impropia: alcanza para un entero y sobran 4 partes.
+
+**Fracción equivalente.** Dos fracciones distintas que valen exactamente lo mismo. 1/2 y 2/4 son equivalentes: media pizza es igual que dos cuartos de pizza.
+
+**Simplificar.** Escribir la misma fracción con números más chicos, dividiendo arriba y abajo por el mismo número. 6/8 simplificada es 3/4.
+
+
 ### ✏️ Ahora tú
 
 1. Clasifica cada fracción en propia, impropia o igual a un entero: 5/9 · 11/7 · 3/3 · 9/4
@@ -197,6 +245,17 @@ Se busca una fracción equivalente con denominador 10, 100 o 1000.
 
 3/4 = 75/100 = **0,75** · 1/8 = 125/1000 = **0,125**
 
+#### 📖 Palabras nuevas
+
+**Décimo, centésimo y milésimo.** Son los pedacitos en que se parte un entero: en 10 partes (décimo), en 100 (centésimo) o en 1.000 (milésimo). Mientras más partes, más chico es cada pedazo.
+
+**Cifra decimal.** Cada número que está después de la coma. En 3,472 las cifras decimales son 4, 7 y 2.
+
+**Número natural.** Los números que usas para contar: 0, 1, 2, 3, 4… sin coma ni fracción.
+
+**Alinear.** Dejar una cosa justo debajo de la otra, en la misma columna. Al sumar decimales, la coma de arriba tiene que quedar exactamente sobre la coma de abajo.
+
+
 ### ✏️ Ahora tú
 
 1. Escribe como decimal: a) 7/10 b) 45/100 c) 8/1000 d) 1/4
@@ -209,6 +268,11 @@ Se busca una fracción equivalente con denominador 10, 100 o 1000.
 ---
 
 ## Práctica graduada
+
+#### 📖 Palabras nuevas
+
+**Graduada.** Ordenada de más fácil a más difícil, de a poco. Los primeros ejercicios son suaves y los últimos son el desafío.
+
 
 ### Nivel 1 · Para calentar
 
@@ -238,6 +302,17 @@ Se busca una fracción equivalente con denominador 10, 100 o 1000.
 
 ## Actividad central · El presupuesto de la once de curso
 
+#### 📖 Palabras nuevas
+
+**Presupuesto.** El plan de cuánta plata vas a gastar y en qué. Sirve para saber de antemano si te alcanza.
+
+**Precio unitario.** Lo que cuesta una sola unidad del producto. Si una bolsa de pan vale $2.450, ese es el precio unitario de la bolsa.
+
+**Semestre.** La mitad del año escolar. El año se divide en dos semestres, con vacaciones de invierno en el medio.
+
+**Aportar.** Poner tu parte de la plata para juntar entre todos. Si cada uno aporta $1.500, se van sumando todos esos aportes.
+
+
 Bego organiza la once de fin de semestre para su curso de **24 estudiantes**. Estos son los datos:
 
 | Producto | Detalle | Precio unitario |
@@ -258,6 +333,17 @@ Responde en tu cuaderno, mostrando el cálculo completo:
 ---
 
 ## Evaluación integradora
+
+#### 📖 Palabras nuevas
+
+**Integradora.** Que junta todo lo que viste en la guía en una sola prueba, no solo un tema.
+
+**Procedimiento.** Los pasos que hiciste para llegar al resultado. «Mostrar el procedimiento» es escribir cómo lo calculaste, no solo la respuesta.
+
+**Transformar.** Escribir el mismo número de otra manera, sin cambiar cuánto vale. Transformar 23/6 a número mixto es escribirlo como 3 5/6.
+
+**Mesada.** La plata que te dan cada mes para tus gastos.
+
 
 Resuelve mostrando el procedimiento. Cada pregunta vale 1 punto.
 

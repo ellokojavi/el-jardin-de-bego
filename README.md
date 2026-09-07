@@ -42,6 +42,9 @@ python3 scripts/build-web.py 01-Matematicas.md
 5. Evaluación integradora
 6. Solucionario, después de un salto de página, con tabla de remediación
 
+Cada sección incluye además un bloque **📖 Palabras nuevas** con las palabras que el
+texto daba por sabidas, explicadas para una niña de 11 años.
+
 El solucionario va siempre en páginas aparte para poder imprimir solo la parte del estudiante.
 
 ## Publicar en GitHub Pages

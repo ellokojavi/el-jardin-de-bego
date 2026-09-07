@@ -19,6 +19,15 @@ Las instrucciones van en inglés, con apoyo en español cuando hace falta.
 
 ## Warm-up test · Diagnóstico de entrada
 
+#### 📖 Palabras nuevas
+
+**Warm-up.** En inglés significa «calentamiento», como el que haces antes de hacer deporte. Aquí es un test corto para ver qué recuerdas antes de empezar.
+
+**Fridge.** Significa refrigerador. Se pronuncia más o menos «friich».
+
+**Translate.** Significa «traduce». Se pronuncia «tránsleit».
+
+
 1. Write three fruits in English: ____________________
 2. Write three vegetables in English: ____________________
 3. How do you say "leche" and "huevo"? ____________________
@@ -68,6 +77,17 @@ Las instrucciones van en inglés, con apoyo en español cuando hace falta.
 - **strawberry → strawberries** (la *y* se cambia por *-ies*).
 - **fish** es igual en singular y plural.
 
+#### 📖 Palabras nuevas
+
+**Dairy.** Significa lácteos: leche, queso, yogur y mantequilla. Se pronuncia «déri», nada parecido a como se escribe.
+
+**Grains.** Significa cereales o granos: pan, arroz, avena, pasta. Se pronuncia «greins».
+
+**Oats.** Significa avena, la de la leche con avena. Se pronuncia «outs».
+
+**Junk food.** Es «comida chatarra»: papas fritas, dulces, hamburguesas. Se pronuncia «yank fud».
+
+
 ### ✏️ Now you try
 
 1. Write in English: manzana, zanahoria, queso, pan, agua.
@@ -101,6 +121,17 @@ Las instrucciones van en inglés, con apoyo en español cuando hace falta.
 Con *he* y *she* se agrega **-s** al verbo:
 
 - She **likes** bananas. · He **doesn't like** cheese.
+
+#### 📖 Palabras nuevas
+
+**Dislikes.** Es lo contrario de «likes»: las cosas que no te gustan. El prefijo «dis-» en inglés le da la vuelta a la palabra.
+
+**Structure.** Significa «estructura»: el molde de una oración que puedes rellenar con distintas palabras, como «I like + comida».
+
+**Favourite.** Significa «favorito» o «favorita». Se pronuncia «féivorit», y en inglés británico se escribe con «u».
+
+**Forma negativa.** La versión de una oración que dice que algo NO pasa. «I like fish» pasa a ser «I don't like fish».
+
 
 ### ✏️ Now you try
 
@@ -140,6 +171,17 @@ Para contar los incontables se usa un envase o medida: *a glass of milk, a slice
 
 - **How many** + contable: *How many apples are there?*
 - **How much** + incontable: *How much milk is there?*
+
+#### 📖 Palabras nuevas
+
+**Countable.** En inglés, lo que se puede contar de a uno y tiene plural: una manzana, dos huevos, tres zanahorias. Se pronuncia «cáuntabol».
+
+**Uncountable.** En inglés, lo que no se puede contar de a uno, como el agua o el arroz. Por eso no se dice «two waters», sino «two glasses of water».
+
+**Sustantivo.** La palabra que nombra una cosa, una persona o un animal: manzana, leche, hermana, perro. Es lo que puede ser contable o incontable.
+
+**Slice.** Significa «rebanada» o «tajada»: a slice of bread es una rebanada de pan. Se pronuncia «slais».
+
 
 ### ✏️ Now you try
 
@@ -183,6 +225,17 @@ Sirven para dar consejos.
 > I wash my hands before meals. \
 > I ride my bike after school.
 
+#### 📖 Palabras nuevas
+
+**Adverbio de frecuencia.** La palabra que dice cada cuánto haces algo: siempre, a veces, nunca. En inglés van antes del verbo: «I always eat breakfast».
+
+**Usually.** Significa «normalmente» o «casi siempre». Se pronuncia «iúshuali».
+
+**Often.** Significa «a menudo», o sea seguido pero no siempre. Se pronuncia «ófen», sin la t.
+
+**Hardly ever.** Significa «casi nunca». Se pronuncia «járdli éver», y ojo que no tiene nada que ver con «duro».
+
+
 ### ✏️ Now you try
 
 1. Order from most to least frequent: *sometimes · never · always · often*.
@@ -194,6 +247,15 @@ Sirven para dar consejos.
 ---
 
 ## Final task · My healthy menu in English
+
+#### 📖 Palabras nuevas
+
+**Meal.** Significa «comida» en el sentido de las comidas del día: desayuno, almuerzo, once, cena. Se pronuncia «miil».
+
+**Afternoon snack.** Es la colación de la tarde, lo más parecido a nuestra once. Se pronuncia «afternún snak».
+
+**Paragraph.** Significa «párrafo»: varias oraciones seguidas sobre un mismo tema. Se pronuncia «páragraf».
+
 
 Toma el **menú saludable de un día** que diseñaste en la guía 3 de Ciencias y escríbelo en inglés en esta tabla:
 
@@ -217,6 +279,13 @@ Then write a short paragraph (5 to 6 sentences) about it, using:
 ---
 
 ## Final test · Evaluación integradora
+
+#### 📖 Palabras nuevas
+
+**Plural.** La forma de una palabra cuando hay más de uno: «potato» es una papa y «potatoes», varias.
+
+**Classify.** Significa «clasifica»: separar las palabras en grupos según a qué categoría pertenecen. Se pronuncia «clásifai».
+
 
 1. Write in English: durazno, zapallo, pan, huevo, agua.
 2. Write in Spanish: lentils, oats, grapes, butter, peas.

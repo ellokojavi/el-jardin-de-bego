@@ -14,6 +14,15 @@ Bego · 5° básico · Repaso 2026
 
 ## Parte I · Matemáticas (10 puntos)
 
+#### 📖 Palabras nuevas
+
+**Valor posicional.** Lo que vale un dígito según el lugar que ocupa en el número. En 947.302 el 4 está en las decenas de mil, así que vale 40.000.
+
+**Número mixto.** Un número que tiene una parte entera y una fracción juntas, como 3 5/8, que se lee «tres enteros y cinco octavos».
+
+**Simplificar.** Dejar una fracción con los números más chicos posibles sin cambiar su valor. 2/6 simplificado es 1/3.
+
+
 1. Escribe con palabras el número 525.408.
 2. ¿Qué valor posicional tiene el 4 en 947.302?
 3. Calcula 1.807 × 45.
@@ -28,6 +37,17 @@ Bego · 5° básico · Repaso 2026
 ---
 
 ## Parte II · Lenguaje y Comunicación (10 puntos)
+
+#### 📖 Palabras nuevas
+
+**Estrofa.** Un bloque de versos separado de los demás por un espacio, como un párrafo del poema.
+
+**Rima consonante.** Cuando dos palabras suenan igual desde la última vocal acentuada, con vocales y consonantes: país / gris. Si solo coinciden las vocales, es asonante.
+
+**Hablante lírico.** La voz que habla dentro del poema, el «yo» que cuenta lo que siente. No es la persona que lo escribió.
+
+**Motivo lírico.** La idea o el sentimiento que mueve el poema, lo que el hablante quiere transmitir.
+
 
 **Lee este poema original y responde.**
 
@@ -58,6 +78,17 @@ Bego · 5° básico · Repaso 2026
 
 ## Parte III · Ciencias Naturales (10 puntos)
 
+#### 📖 Palabras nuevas
+
+**Sello de advertencia.** Los octógonos negros de los envases que avisan «ALTO EN AZÚCARES» o «ALTO EN SODIO». Advertir es avisar de algo malo.
+
+**Alquitrán.** Una sustancia negra y pegajosa del humo del cigarro, parecida a la del asfalto, que se pega dentro de los pulmones.
+
+**Monóxido de carbono.** Un gas invisible del humo del cigarro que le quita el puesto al oxígeno en la sangre, así que el corazón tiene que trabajar más.
+
+**Fumador pasivo.** Quien respira el humo del cigarro de otras personas sin fumar. «Pasivo» aquí quiere decir que le pasa sin que él haga nada.
+
+
 1. Nombra los cinco pilares de una vida saludable.
 2. ¿Qué fracción del plato deben ocupar las verduras y frutas? ¿Y las proteínas?
 3. Nombra los cuatro sellos de advertencia que existen en Chile.
@@ -72,6 +103,17 @@ Bego · 5° básico · Repaso 2026
 ---
 
 ## Parte IV · Historia, Geografía y Ciencias Sociales (10 puntos)
+
+#### 📖 Palabras nuevas
+
+**Imperio.** Un territorio enorme con muchos pueblos gobernados desde un solo centro, como el imperio azteca o el inca.
+
+**Encomienda.** Un sistema en que un grupo de indígenas quedaba «encomendado» a un español, que se quedaba con su trabajo a cambio de protegerlos. En la práctica era trabajo forzado.
+
+**Frontera.** La línea que separa dos territorios. Después de Curalaba, el río Biobío quedó como frontera entre españoles y mapuche.
+
+**Mestizaje.** La mezcla entre españoles e indígenas, tanto de familias como de costumbres, comidas y palabras. Por eso decimos «guagua», que viene del mapudungun.
+
 
 1. ¿Qué ocurrió el 12 de octubre de 1492?
 2. Nombra las tres naves del primer viaje de Colón.
@@ -102,6 +144,13 @@ Bego · 5° básico · Repaso 2026
 ---
 
 ## Parte VI · Sección integradora (5 puntos)
+
+#### 📖 Palabras nuevas
+
+**Integradora.** Que mezcla varias asignaturas en una misma pregunta, por ejemplo matemáticas con ciencias.
+
+**Zarpar.** Cuando un barco sale del puerto y empieza su viaje. Colón zarpó de Palos el 3 de agosto de 1492.
+
 
 1. Un almuerzo pesa 400 gramos en total y respeta el modelo del plato saludable. ¿Cuántos gramos corresponden a verduras y frutas? ¿Cuántos a proteínas?
 2. Escribe en inglés tres alimentos que aparecen en el modelo del plato saludable.
