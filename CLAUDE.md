@@ -64,6 +64,10 @@ Cada documento existe también como página: `01-Matematicas.html`, etc., genera
 - El estilo compartido está en `guia.css`. Tocarlo cambia las siete páginas.
 - Cada página lleva el `noindex`, un enlace de vuelta al índice y un botón de descarga
   del `.docx` arriba y abajo.
+- Los enlaces de descarga llevan `download="El jardin de Bego - <archivo>.docx"`, así que
+  el archivo llega al computador con ese nombre aunque en el repositorio se llame
+  `01-Matematicas.docx`. El prefijo se define en `PREFIJO_DESCARGA`, dentro de
+  `scripts/build-web.py`, y en los enlaces del `index.html`.
 - El **solucionario va plegado** dentro de un `<details>` con la advertencia "para el
   adulto". El script lo separa cortando el Markdown en el bloque ```` ```{=openxml} ````
   del salto de página, así que ese marcador cumple dos funciones: salto de página en el
