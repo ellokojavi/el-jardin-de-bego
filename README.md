@@ -42,6 +42,9 @@ python3 scripts/build-web.py 01-Matematicas.md
 5. Evaluación integradora
 6. Solucionario, después de un salto de página, con tabla de remediación
 
+Las guías de Historia y Ciencias llevan fotografías y láminas en `imagenes/`, con su
+crédito y licencia en el pie. Aparecen tanto en la página web como en el `.docx`.
+
 Cada sección incluye además un bloque **📖 Palabras nuevas** con las palabras que el
 texto daba por sabidas, explicadas para una niña de 11 años.
 

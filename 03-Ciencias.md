@@ -49,6 +49,8 @@ Un **hábito** es una conducta que se repite tantas veces que termina saliendo s
 | Sueño | Entre 9 y 11 horas cada noche | El cuerpo repara tejidos y el cerebro fija lo aprendido |
 | Hidratación | Entre 6 y 8 vasos de agua al día | El agua transporta nutrientes y regula la temperatura |
 
+![Frutas y verduras de distintos colores. La recomendación son cinco porciones al día, y mientras más colores distintos, más variados los nutrientes. Foto del USDA, dominio público.](imagenes/frutas-verduras.jpg)
+
 ### Lo que ocurre cuando faltan
 
 La falta sostenida de estos hábitos produce **sedentarismo**, sobrepeso, cansancio, dificultad para concentrarse y mayor riesgo de enfermedades cardiovasculares en la vida adulta. En Chile, el Ministerio de Salud identifica la obesidad infantil como uno de los principales problemas de salud pública escolar.
@@ -104,6 +106,8 @@ La **Ley 20.606**, conocida como Ley de Etiquetado de Alimentos, obliga a poner 
 
 Los sellos no dicen "prohibido". Dicen **"consume poco y de vez en cuando"**. Además, la ley prohíbe vender estos productos dentro de los colegios y usar dibujos animados para promocionarlos a niños.
 
+![Los cuatro sellos de advertencia que exige la ley chilena. Un producto puede llevar uno, varios o ninguno. Recreación hecha para esta guía.](imagenes/sellos-alto-en.png)
+
 ### Cómo leer un envase
 
 1. Mirar cuántos sellos tiene: mientras menos, mejor.
@@ -149,6 +153,8 @@ Una manera simple de equilibrar cualquier almuerzo o cena:
 Y siempre, al lado: **un vaso de agua**, no jugo ni bebida.
 
 Aquí las fracciones de Matemáticas aparecen en la vida real: 1/2 + 1/4 + 1/4 = 1 plato completo.
+
+![Un almuerzo armado según el modelo del plato: la mitad verduras, un cuarto proteína y un cuarto cereales o papas. Foto del USDA, dominio público.](imagenes/plato-completo.jpg)
 
 ### Las cuatro comidas del día
 
@@ -208,6 +214,8 @@ El humo del cigarrillo contiene más de 7.000 sustancias químicas, y alrededor 
 **Sistema circulatorio.** Las arterias se estrechan y se endurecen. Aumentan la presión arterial y el riesgo de infarto y de accidente cerebrovascular. La sangre transporta menos oxígeno por el monóxido de carbono.
 
 **Otros efectos visibles:** mal aliento, dientes amarillos, menor sentido del gusto y del olfato, piel envejecida antes de tiempo y menos resistencia física al hacer deporte.
+
+![Los pulmones y los bronquios que llevan el aire hasta los alvéolos. Es el sistema que más daña el humo del cigarrillo. Ilustración del NIH, dominio público.](imagenes/pulmones.png)
 
 ### El fumador pasivo
 

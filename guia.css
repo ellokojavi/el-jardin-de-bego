@@ -141,6 +141,21 @@ body{
 }
 .ahora>h3{margin-top:0;color:var(--tierra)}
 
+/* fotografías y láminas dentro de las guías */
+.contenido figure{
+  margin:22px 0 24px;padding:0;
+}
+.contenido figure img{
+  display:block;max-width:100%;height:auto;margin:0 auto;
+  border:2px solid var(--tinta);border-radius:12px;
+  background:var(--pasto);
+}
+.contenido figcaption{
+  margin-top:9px;font-size:.86rem;line-height:1.5;color:var(--tinta-suave);
+  border-left:3px solid var(--pasto-hondo);padding-left:11px;
+}
+.contenido img{max-width:100%;height:auto}
+
 /* vocabulario: palabras que el texto da por sabidas */
 .palabras{
   background:rgba(61,125,184,.07);

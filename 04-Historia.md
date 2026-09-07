@@ -53,9 +53,15 @@ Las causas principales fueron:
 | Portulanos | Mapas de costas y puertos |
 | Vela latina (triangular) | Aprovechar vientos de distintas direcciones |
 
+![Réplicas de la Niña, la Pinta y la Santa María en el Muelle de las Carabelas, en Huelva. Así de pequeñas eran las naves que cruzaron el Atlántico. Foto de Edward the Confessor, CC BY-SA 4.0.](imagenes/carabelas.jpg)
+
+![Un astrolabio náutico de alrededor de 1600. Medía la altura del sol o de una estrella sobre el horizonte, y con eso el navegante sabía a qué latitud estaba. Foto de Hispalois, CC BY-SA 4.0.](imagenes/astrolabio.jpg)
+
 ### Una idea que no era nueva
 
 Los sabios de la época ya sabían que la Tierra era esférica. Lo que Colón calculó **mal** fue su tamaño: creyó que Asia estaba mucho más cerca navegando hacia el oeste. Ese error lo llevó a un continente que los europeos no conocían.
+
+![El mundo según Ptolomeo, impreso en Ulm en 1482, diez años antes del primer viaje de Colón: Europa, África y Asia, y ningún continente americano. Dominio público.](imagenes/mapa-1482.jpg)
 
 #### 📖 Palabras nuevas
 
@@ -92,6 +98,8 @@ Navegante genovés que consiguió el apoyo de los **Reyes Católicos**, Isabel d
 - Hizo cuatro viajes en total y murió en 1506 convencido de haber llegado a Asia.
 
 El continente terminó llamándose **América** por Américo Vespucio, el navegante que sostuvo que se trataba de tierras nuevas y no de Asia.
+
+![El desembarco de Colón, pintado por John Vanderlyn en el siglo XIX. Ojo: es una versión idealizada, pintada más de 300 años después. Sirve para imaginar la escena, no como retrato fiel de lo que pasó. Dominio público.](imagenes/desembarco-colon.jpg)
 
 ### Otros viajes importantes
 
@@ -141,6 +149,10 @@ Para evitar la guerra entre Portugal y Castilla, el **Tratado de Tordesillas (14
 | Gobernante indígena | Moctezuma II | Atahualpa |
 | Ciudad clave | Tenochtitlán | Cajamarca y luego Cuzco |
 | Año decisivo | 1521 | 1532–1533 |
+
+![Maqueta de Tenochtitlan, la capital azteca construida sobre un lago. Cuando llegó Cortés tenía más habitantes que cualquier ciudad de España. Dominio público.](imagenes/tenochtitlan.jpg)
+
+![Machu Picchu, en Perú, una ciudad inca a 2.400 metros de altura. Da una idea de lo que los incas construían sin rueda ni herramientas de hierro. Dominio público.](imagenes/machu-picchu.jpg)
 
 ### Por qué pocos españoles vencieron a imperios enormes
 
@@ -199,6 +211,8 @@ El **11 de septiembre de 1541**, mientras Valdivia estaba fuera, el cacique **Mi
 
 Valdivia continuó hacia el sur y fundó **La Serena, Concepción, La Imperial, Valdivia y Villarrica**, entre otras.
 
+![Pedro de Valdivia, retratado por Federico de Madrazo en el siglo XIX. Fundó Santiago en 1541 y murió en Tucapel en 1553. Dominio público.](imagenes/pedro-de-valdivia.jpg)
+
 ### La Guerra de Arauco
 
 Al sur del río Biobío, el pueblo **mapuche** resistió durante más de tres siglos. Fue el conflicto más largo de la historia de Chile.
@@ -211,6 +225,8 @@ Al sur del río Biobío, el pueblo **mapuche** resistió durante más de tres si
 | Desastre de Curalaba | 1598 | Los mapuche derrotan al gobernador Martín García Óñez de Loyola y destruyen las ciudades al sur del Biobío. El río queda como frontera. |
 
 El poeta soldado **Alonso de Ercilla** escribió *La Araucana*, poema épico que narra esta guerra y que retrata con admiración a los guerreros mapuche. Es el primer gran texto literario sobre Chile.
+
+![Lautaro, según el pintor chileno Pedro Subercaseaux. Vivió entre los españoles antes de dirigir la resistencia mapuche contra ellos. Dominio público.](imagenes/lautaro.jpg)
 
 ### Las consecuencias del encuentro
 

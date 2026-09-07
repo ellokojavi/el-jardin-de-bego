@@ -64,6 +64,31 @@ Bego se traba con palabras que las guías daban por sabidas ("sedentarismo", "ni
 - Al agregar contenido nuevo a una guía, revisar si necesita palabras nuevas en su
   bloque.
 
+## Imágenes
+
+Las fotos y láminas viven en `imagenes/`, dentro del repositorio, no enlazadas a un sitio
+externo. Se insertan en el `.md`, así que salen en la página **y** en el `.docx`.
+
+```markdown
+![Pie de foto que explica qué se ve y para qué sirve. Foto de Autor, Licencia.](imagenes/carabelas.jpg)
+```
+
+- **Dónde va:** al final de la subsección `###` que ilustra, no al principio de la sección.
+- **El pie de foto enseña.** No describe la imagen: dice qué mirar y por qué importa. En
+  el caso del desembarco de Colón, además advierte que es una pintura del siglo XIX y no
+  un registro fiel — sirve para que Bego aprenda a mirar una fuente con criterio.
+- **El crédito va al final del propio pie**, en la misma frase: autor y licencia. Los
+  datos completos quedan en `imagenes/creditos.json`, que el script llena solo.
+- **Origen:** Wikimedia Commons, priorizando dominio público. `scripts/imagenes.py buscar
+  "consulta"` lista candidatas con su licencia; `scripts/imagenes.py bajar "File:X.jpg"
+  nombre` descarga, recomprime y anota el crédito. El script va despacio a propósito:
+  Commons responde 429 si uno insiste.
+- **Techo de tamaño: 760 × 440 px.** No es capricho — pandoc dimensiona las imágenes del
+  `.docx` según sus píxeles, y una foto vertical más alta se come una página entera del
+  documento impreso.
+- Los sellos ALTO EN son un dibujo propio hecho con PIL, no una imagen bajada: son
+  octógonos negros simples y así no dependemos de nadie.
+
 ## Reglas de contenido
 
 - Español de Chile, natural para una niña de 11 años, sin infantilizar. La guía de
