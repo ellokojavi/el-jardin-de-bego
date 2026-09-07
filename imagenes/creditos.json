@@ -57,7 +57,8 @@
     "titulo": "File:Human Lungs (NIH BioArt 231 - 630887).png",
     "autor": "Courtesy of NIAID Ryan Kissinger",
     "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Human_Lungs_(NIH_BioArt_231_-_630887).png"
+    "pagina": "https://commons.wikimedia.org/wiki/File:Human_Lungs_(NIH_BioArt_231_-_630887).png",
+    "nota": "Ilustración del NIH en dominio público, rotulada en español para esta guía"
   },
   "mapa-1482.jpg": {
     "titulo": "File:World of Ptolemy as shown by Johannes de Armsshein - Ulm 1482.png",
@@ -70,5 +71,17 @@
     "autor": "Elaboración propia para esta guía",
     "licencia": "—",
     "pagina": "Formato definido por la Ley 20.606 y el Decreto 13/2015 del Minsal (Chile)"
+  },
+  "frutas-por-color.png": {
+    "titulo": "Frutas y verduras por color",
+    "autor": "Elaboración propia para esta guía",
+    "licencia": "—",
+    "pagina": ""
+  },
+  "plato-modelo.png": {
+    "titulo": "El modelo del plato",
+    "autor": "Elaboración propia para esta guía",
+    "licencia": "—",
+    "pagina": ""
   }
 }
