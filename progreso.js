@@ -16,5 +16,5 @@
  */
 window.PROGRESO = {
   actualizado: "2026-09-07",
-  sesiones: [1, 2, 3, 6, 7, 8, 9]
+  sesiones: [1, 2, 3]
 };
