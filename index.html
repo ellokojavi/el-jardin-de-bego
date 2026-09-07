@@ -124,7 +124,23 @@ body{
   transform:translate(-2px,-3px);
   box-shadow:8px 10px 0 var(--sombra,var(--pasto-hondo));
 }
-.ficha svg{width:52px;height:62px;margin-bottom:10px}
+.ficha svg{
+  width:52px;height:62px;margin-bottom:10px;
+  transform-origin:50% 100%;
+  animation:mecer 4.4s ease-in-out infinite;
+}
+/* cada planta se mece a su propio ritmo: los retrasos negativos las desfasan de entrada */
+.f-mate svg{animation-delay:-0.0s;animation-duration:4.4s}
+.f-leng svg{animation-delay:-0.9s;animation-duration:5.0s}
+.f-cien svg{animation-delay:-1.8s;animation-duration:4.1s}
+.f-hist svg{animation-delay:-2.6s;animation-duration:4.7s}
+.f-ingl svg{animation-delay:-3.4s;animation-duration:5.3s}
+/* al pasar el cursor la planta se anima más */
+.ficha:hover svg,.ficha:focus-within svg{animation-duration:1.15s}
+@keyframes mecer{
+  0%,100%{transform:rotate(-2.4deg)}
+  50%    {transform:rotate(2.4deg)}
+}
 .ficha .num{
   font-family:var(--texto);font-size:.74rem;font-weight:800;letter-spacing:.09em;
   text-transform:uppercase;color:var(--acento);margin-bottom:2px;
@@ -267,6 +283,7 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
   .tallo{stroke-dashoffset:0;animation:none}
   .flor{opacity:1;animation:none}
   .rayos,.disco,.abeja,.ala{animation:none}
+  .ficha svg{animation:none}
   *{transition:none!important}
   html{scroll-behavior:auto}
 }
@@ -482,7 +499,7 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
   </section>
 
   <section class="seccion" id="riego">
-    <h2>Riega tu jardín</h2>
+    <h2>Regando el jardín</h2>
     <p class="intro">El avance se actualiza a medida que Bego termina cada sesión. La página muestra siempre el último estado.</p>
 
     <div class="riego">
@@ -514,7 +531,7 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
   </section>
 
   <section class="seccion" id="adulto">
-    <h2>Para el papá de Bego</h2>
+    <h2>Para el papá de Bego 👨🏻‍🦲</h2>
     <p class="intro">Dos documentos pensados para estudiar junto a Bego.</p>
     <div class="estante">
       <div class="doc">
