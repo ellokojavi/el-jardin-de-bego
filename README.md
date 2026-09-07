@@ -2,6 +2,8 @@
 
 Materiales de repaso para 5° básico, alineados a las Bases Curriculares del Ministerio de Educación de Chile. Cubren lo pasado entre marzo y septiembre de 2026 en cinco asignaturas, organizados en un plan de tres semanas y unas 20 horas de estudio.
 
+**Sitio en vivo:** https://ellokojavi.github.io/el-jardin-de-bego/
+
 `index.html` es la guía principal: enlaza las cinco guías, muestra el plan por semanas y lleva la cuenta de las quince sesiones.
 
 ## Contenido

@@ -86,10 +86,19 @@ dispositivos ni se guarda en el repositorio.
 
 ## Publicación
 
-GitHub Pages: **Settings → Pages**, *Deploy from a branch*, rama `main`, carpeta
-`/ (root)`.
+Publicado el 2026-09-07 en GitHub Pages, desde `main` / raíz:
 
-Decisión pendiente antes de publicar: los documentos incluyen los solucionarios
-completos. Repositorio público = solucionarios públicos. GitHub Pages sobre
-repositorio privado requiere plan de pago; la alternativa es dejarlo privado y usar
-los archivos localmente.
+- Repositorio público: https://github.com/ellokojavi/el-jardin-de-bego
+- Sitio: https://ellokojavi.github.io/el-jardin-de-bego/
+
+El sitio lleva `<meta name="robots" content="noindex, nofollow">` **a propósito**: la
+URL es pública y se puede compartir con quien sea, pero el sitio queda fuera de los
+buscadores, porque los documentos están dirigidos a una niña por su nombre. No quitar
+ese meta tag. El `robots.txt` es complementario y no lo leen los crawlers en una
+página de proyecto; el meta tag es el que sirve.
+
+Los documentos incluyen los solucionarios completos y el repositorio es público: eso
+fue una decisión consciente.
+
+Después de cambiar cualquier `.md`, regenerar su `.docx` (`scripts/build.sh`),
+verificar (`scripts/verify.sh`) y hacer push — el sitio se reconstruye solo.
