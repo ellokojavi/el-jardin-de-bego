@@ -202,6 +202,9 @@ body{
 .guardado.sin-memoria{color:var(--begonia)}
 .guardado.sin-memoria::before{background:var(--begonia)}
 
+.avatar{
+  height:1.5em;width:auto;vertical-align:-.34em;margin-left:.18em;
+}
 /* ---------- estante del adulto ---------- */
 .estante{
   display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
@@ -297,7 +300,7 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
 
 <header class="portada envoltura">
   <h1>El jardín de <em>Bego</em></h1>
-  <p class="bajada">Tres semanas para repasar todo lo que pasaron los futuros compañeros de Bego en Chile entre marzo y septiembre y preparar a Bego en su nueva vida escolar en Chile. Una guía por materia, y un jardín que crece cada vez que estudia.</p>
+  <p class="bajada">Tres semanas para ponerse al día con lo que sus futuros compañeros pasaron entre marzo y septiembre, y llegar preparada al nuevo colegio en Chile. Una guía por materia, y un jardín que crece cada vez que estudia.</p>
 
   <svg class="jardin" viewBox="0 0 940 300" role="img" aria-label="Ilustración de un jardín con cinco plantas, una por cada materia">
     <!-- sol -->
@@ -531,7 +534,7 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
   </section>
 
   <section class="seccion" id="adulto">
-    <h2>Para el papá de Bego 👨🏻‍🦲</h2>
+    <h2>Para el papá de Bego <img class="avatar" src="./papa.png" width="85" height="112" alt="" loading="lazy"></h2>
     <p class="intro">Dos documentos pensados para estudiar junto a Bego.</p>
     <div class="estante">
       <div class="doc">
