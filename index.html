@@ -160,26 +160,21 @@ body{
 .barra i{display:block;height:100%;width:0;background:var(--cien);border-radius:999px;transition:width .3s ease}
 .sesiones{list-style:none;margin:0;padding:0;display:grid;gap:8px;
   grid-template-columns:repeat(auto-fill,minmax(240px,1fr));}
-.sesiones li{margin:0}
-.sesiones label{
-  display:flex;align-items:flex-start;gap:10px;cursor:pointer;
+.sesiones li{
+  display:flex;align-items:flex-start;gap:10px;
   padding:7px 10px;border-radius:9px;font-size:.92rem;line-height:1.35;
 }
-.sesiones label:hover{background:var(--pasto)}
-.sesiones input{
-  appearance:none;-webkit-appearance:none;flex:0 0 auto;
-  width:20px;height:20px;margin:1px 0 0;border:2px solid var(--tinta-suave);
-  border-radius:50% 50% 50% 2px;transform:rotate(45deg);background:transparent;cursor:pointer;
+.sesiones .gota{
+  flex:0 0 auto;width:20px;height:20px;margin:1px 0 0;
+  border:2px solid var(--tinta-suave);
+  border-radius:50% 50% 50% 2px;transform:rotate(45deg);background:transparent;
 }
-.sesiones input:checked{background:var(--cien);border-color:var(--cien)}
-.sesiones input:focus-visible{outline:3px solid var(--begonia);outline-offset:2px}
-.sesiones input:checked + span{text-decoration:line-through;color:var(--tinta-suave)}
-.reiniciar{
-  margin-top:18px;background:none;border:2px solid var(--tinta-suave);color:var(--tinta-suave);
-  font-family:var(--texto);font-weight:700;font-size:.85rem;
-  border-radius:999px;padding:6px 15px;cursor:pointer;
+.sesiones li.hecha .gota{background:var(--cien);border-color:var(--cien)}
+.sesiones li.hecha .rotulo{text-decoration:line-through;color:var(--tinta-suave)}
+.oculto{
+  position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;
 }
-.reiniciar:hover{border-color:var(--begonia);color:var(--begonia)}
 .guardado{
   display:flex;align-items:center;gap:8px;flex-wrap:wrap;
   margin:16px 0 0;font-size:.84rem;color:var(--tinta-suave);line-height:1.45;
@@ -285,7 +280,7 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
 
 <header class="portada envoltura">
   <h1>El jardín de <em>Bego</em></h1>
-  <p class="bajada">Tres semanas para repasar todo lo que pasaron los compañeros de Bego en quinto año en Chile entre marzo y septiembre y preparar a Bego en su nueva vida escolar en Chile. Una guía por materia, y un jardín que crece cada vez que estudia.</p>
+  <p class="bajada">Tres semanas para repasar todo lo que pasaron los futuros compañeros de Bego en Chile entre marzo y septiembre y preparar a Bego en su nueva vida escolar en Chile. Una guía por materia, y un jardín que crece cada vez que estudia.</p>
 
   <svg class="jardin" viewBox="0 0 940 300" role="img" aria-label="Ilustración de un jardín con cinco plantas, una por cada materia">
     <!-- sol -->
@@ -295,6 +290,7 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
         <line x1="852" y1="10" x2="852" y2="0"/><line x1="894" y1="52" x2="906" y2="52"/>
         <line x1="882" y1="22" x2="890" y2="14"/><line x1="882" y1="82" x2="890" y2="90"/>
         <line x1="822" y1="22" x2="814" y2="14"/><line x1="810" y1="52" x2="798" y2="52"/>
+        <line x1="852" y1="94" x2="852" y2="104"/><line x1="822" y1="82" x2="814" y2="90"/>
       </g>
     </g>
 
@@ -487,7 +483,7 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
 
   <section class="seccion" id="riego">
     <h2>Riega tu jardín</h2>
-    <p class="intro">Marca cada sesión cuando la termines. Las quince gotas completan el jardín.</p>
+    <p class="intro">El avance se actualiza a medida que Bego termina cada sesión. La página muestra siempre el último estado.</p>
 
     <div class="riego">
       <div class="marcador">
@@ -497,24 +493,22 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
       <div class="barra"><i id="avance"></i></div>
 
       <ul class="sesiones" id="lista">
-        <li><label><input type="checkbox" data-s="1"><span>1 · Matemáticas: diagnóstico y números</span></label></li>
-        <li><label><input type="checkbox" data-s="2"><span>2 · Lenguaje: textos literarios</span></label></li>
-        <li><label><input type="checkbox" data-s="3"><span>3 · Ciencias: hábitos saludables</span></label></li>
-        <li><label><input type="checkbox" data-s="4"><span>4 · Historia: el mundo antes de 1492</span></label></li>
-        <li><label><input type="checkbox" data-s="5"><span>5 · Inglés: food vocabulary</span></label></li>
-        <li><label><input type="checkbox" data-s="6"><span>6 · Matemáticas: fracciones y decimales</span></label></li>
-        <li><label><input type="checkbox" data-s="7"><span>7 · Matemáticas: práctica y presupuesto</span></label></li>
-        <li><label><input type="checkbox" data-s="8"><span>8 · Lenguaje: el poema y tu poema</span></label></li>
-        <li><label><input type="checkbox" data-s="9"><span>9 · Ciencias: menú y campaña</span></label></li>
-        <li><label><input type="checkbox" data-s="10"><span>10 · Historia: conquista y línea de tiempo</span></label></li>
-        <li><label><input type="checkbox" data-s="11"><span>11 · Inglés: healthy habits y menú</span></label></li>
-        <li><label><input type="checkbox" data-s="12"><span>12 · Repaso de lo que quedó débil</span></label></li>
-        <li><label><input type="checkbox" data-s="13"><span>13 · Evaluaciones pendientes por guía</span></label></li>
-        <li><label><input type="checkbox" data-s="14"><span>14 · Evaluación Final Integrada</span></label></li>
-        <li><label><input type="checkbox" data-s="15"><span>15 · Revisión y cierre</span></label></li>
+        <li data-s="1"><span class="gota" aria-hidden="true"></span><span class="rotulo">1 · Matemáticas: diagnóstico y números</span></li>
+        <li data-s="2"><span class="gota" aria-hidden="true"></span><span class="rotulo">2 · Lenguaje: textos literarios</span></li>
+        <li data-s="3"><span class="gota" aria-hidden="true"></span><span class="rotulo">3 · Ciencias: hábitos saludables</span></li>
+        <li data-s="4"><span class="gota" aria-hidden="true"></span><span class="rotulo">4 · Historia: el mundo antes de 1492</span></li>
+        <li data-s="5"><span class="gota" aria-hidden="true"></span><span class="rotulo">5 · Inglés: food vocabulary</span></li>
+        <li data-s="6"><span class="gota" aria-hidden="true"></span><span class="rotulo">6 · Matemáticas: fracciones y decimales</span></li>
+        <li data-s="7"><span class="gota" aria-hidden="true"></span><span class="rotulo">7 · Matemáticas: práctica y presupuesto</span></li>
+        <li data-s="8"><span class="gota" aria-hidden="true"></span><span class="rotulo">8 · Lenguaje: el poema y tu poema</span></li>
+        <li data-s="9"><span class="gota" aria-hidden="true"></span><span class="rotulo">9 · Ciencias: menú y campaña</span></li>
+        <li data-s="10"><span class="gota" aria-hidden="true"></span><span class="rotulo">10 · Historia: conquista y línea de tiempo</span></li>
+        <li data-s="11"><span class="gota" aria-hidden="true"></span><span class="rotulo">11 · Inglés: healthy habits y menú</span></li>
+        <li data-s="12"><span class="gota" aria-hidden="true"></span><span class="rotulo">12 · Repaso de lo que quedó débil</span></li>
+        <li data-s="13"><span class="gota" aria-hidden="true"></span><span class="rotulo">13 · Evaluaciones pendientes por guía</span></li>
+        <li data-s="14"><span class="gota" aria-hidden="true"></span><span class="rotulo">14 · Evaluación Final Integrada</span></li>
+        <li data-s="15"><span class="gota" aria-hidden="true"></span><span class="rotulo">15 · Revisión y cierre</span></li>
       </ul>
-
-      <button class="reiniciar" id="reiniciar" type="button">Empezar de nuevo</button>
       <p class="guardado" id="estado" role="status"></p>
     </div>
   </section>
@@ -543,100 +537,39 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
   <p>Hecho para Bego por su papá con mucho amor · 2026</p>
 </footer>
 
+<script src="./progreso.js"></script>
 <script>
 (function(){
-  var CLAVE = "jardin-begonia-v1";
-  var cajas = Array.prototype.slice.call(document.querySelectorAll('#lista input'));
-  var cuenta = document.getElementById('cuenta');
-  var avance = document.getElementById('avance');
+  // El avance vive en progreso.js y es de solo lectura: la página no lo modifica.
+  var datos = (window.PROGRESO && Array.isArray(window.PROGRESO.sesiones)) ? window.PROGRESO.sesiones : [];
+  var items = Array.prototype.slice.call(document.querySelectorAll('#lista li'));
+  var hechas = 0;
+
+  items.forEach(function(li){
+    if (datos.indexOf(Number(li.dataset.s)) === -1) return;
+    li.classList.add('hecha');
+    hechas++;
+    var aviso = document.createElement('span');
+    aviso.className = 'oculto';
+    aviso.textContent = ' (completada)';
+    li.appendChild(aviso);
+  });
+
+  document.getElementById('cuenta').textContent = hechas;
+  document.getElementById('avance').style.width = (items.length ? hechas / items.length * 100 : 0) + '%';
+
   var estado = document.getElementById('estado');
-
-  // ¿Este navegador permite guardar? Algunos bloquean el almacenamiento
-  // en ventanas privadas o dentro de visores incrustados.
-  var memoria = (function(){
-    try{
-      localStorage.setItem(CLAVE + "-prueba", "1");
-      localStorage.removeItem(CLAVE + "-prueba");
-      return true;
-    }catch(e){ return false; }
-  })();
-
-  function leer(){
-    if(!memoria) return [];
-    try{ return JSON.parse(localStorage.getItem(CLAVE)) || []; }
-    catch(e){ return []; }
-  }
-
-  function guardar(){
-    var marcadas = cajas.filter(function(c){ return c.checked; })
-                        .map(function(c){ return c.dataset.s; });
-    if(memoria){
-      try{
-        localStorage.setItem(CLAVE, JSON.stringify(marcadas));
-        localStorage.setItem(CLAVE + "-fecha", new Date().toISOString());
-      }catch(e){ memoria = false; }
+  var iso = window.PROGRESO && window.PROGRESO.actualizado;
+  var texto = 'El avance lo actualiza quien acompaña el estudio.';
+  if (iso) {
+    var d = new Date(iso + 'T12:00:00');
+    if (!isNaN(d)) {
+      texto = 'Última actualización: ' +
+        d.toLocaleDateString('es-CL', { day:'numeric', month:'long', year:'numeric' }) + '.';
     }
-    return marcadas;
   }
-
-  function fechaLegible(){
-    try{
-      var iso = localStorage.getItem(CLAVE + "-fecha");
-      if(!iso) return "";
-      var d = new Date(iso);
-      if(isNaN(d)) return "";
-      return d.toLocaleDateString("es-CL", { day:"numeric", month:"long" }) +
-             " a las " + d.toLocaleTimeString("es-CL", { hour:"2-digit", minute:"2-digit", hour12:false });
-    }catch(e){ return ""; }
-  }
-
-  function pintarEstado(){
-    if(!memoria){
-      estado.className = "guardado sin-memoria";
-      estado.textContent = "Este navegador no está guardando el avance. Descarga la página y ábrela desde tu carpeta, en una ventana normal.";
-      return;
-    }
-    var f = fechaLegible();
-    estado.className = "guardado";
-    estado.textContent = f
-      ? "Guardado en este navegador el " + f + "."
-      : "Tu avance se guarda en este navegador, aunque cierres la página.";
-  }
-
-  function pintar(){
-    var n = cajas.filter(function(c){ return c.checked; }).length;
-    cuenta.textContent = n;
-    avance.style.width = (n / cajas.length * 100) + "%";
-  }
-
-  var guardadas = leer();
-  cajas.forEach(function(c){
-    if (guardadas.indexOf(c.dataset.s) !== -1) c.checked = true;
-    c.addEventListener('change', function(){
-      guardar();
-      pintar();
-      pintarEstado();
-    });
-  });
-
-  document.getElementById('reiniciar').addEventListener('click', function(){
-    cajas.forEach(function(c){ c.checked = false; });
-    guardar();
-    pintar();
-    pintarEstado();
-  });
-
-  // Si Bego tiene la página abierta en dos pestañas, se mantienen al día.
-  window.addEventListener('storage', function(ev){
-    if(ev.key !== CLAVE) return;
-    var lista = leer();
-    cajas.forEach(function(c){ c.checked = lista.indexOf(c.dataset.s) !== -1; });
-    pintar();
-    pintarEstado();
-  });
-
-  pintar();
-  pintarEstado();
+  estado.className = 'guardado';
+  estado.textContent = texto;
 })();
 </script>
 </body>

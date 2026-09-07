@@ -52,9 +52,12 @@ Los enlaces a las guías son relativos, así que funcionan tanto en la web publi
 
 **Antes de publicar**, vale la pena decidir si el repositorio será público. Los documentos incluyen los solucionarios completos. Si prefieres mantenerlo privado, GitHub Pages sobre repositorios privados requiere un plan de pago; la alternativa es dejar el repositorio privado y usar los archivos de forma local.
 
-## Progreso guardado
+## Progreso
 
-El marcador de sesiones usa el almacenamiento local del navegador. El avance se conserva al cerrar la página, pero vive en ese navegador y ese equipo: no se sincroniza entre dispositivos ni se guarda en el repositorio.
+El avance de las quince sesiones se guarda en `progreso.js` y es de **solo lectura**
+en la página: nadie puede marcarlo desde el navegador. Para actualizarlo se edita ese
+archivo, que lleva la lista de sesiones terminadas y la fecha, y se hace push. La
+correspondencia entre guías y sesiones está anotada dentro del propio archivo.
 
 ## Licencia
 

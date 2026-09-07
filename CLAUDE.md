@@ -99,15 +99,21 @@ Todo está instalado en este Mac (`pandoc`, `soffice`, `pdftoppm`, `git`).
 
 ## Sitio hub
 
-Metáfora de jardín (cada asignatura es una planta): SVG animado, tarjetas de
-asignatura que enlazan a los `.docx`, sección con el plan de tres semanas y un tracker
-de las 15 sesiones. El tracker persiste en `localStorage` con sincronización entre
-pestañas, indicador de estado de guardado y fallback si el almacenamiento está
-bloqueado. El texto de introducción usa tercera persona plural: «todo lo que pasaron
-en quinto año en Chile».
+Metáfora de jardín (cada asignatura es una planta): SVG animado —el sol gira y respira,
+la abeja vuela y aletea, todo detenido si el sistema pide movimiento reducido—, tarjetas
+que abren la guía web con descarga `.docx` aparte, sección con el plan de tres semanas y
+el marcador de las 15 sesiones.
 
-El progreso vive en el navegador y el equipo donde se marque: no se sincroniza entre
-dispositivos ni se guarda en el repositorio.
+**El marcador es de solo lectura.** El avance vive en `progreso.js`, que declara
+`window.PROGRESO = { actualizado, sesiones }`. Nadie puede marcar sesiones desde el
+navegador: para actualizar el progreso se edita ese archivo y se hace push. Dentro del
+propio archivo está la tabla de qué sesión corresponde a cada guía. Se carga con
+`<script src>` y no con `fetch`, para que la página siga funcionando abierta desde el
+disco.
+
+Ojo: el repositorio es público, así que `progreso.js` es legible por cualquiera que
+tenga la URL. Es privado en el sentido de que no se edita desde la página, no en el
+sentido de secreto.
 
 ## Publicación
 
