@@ -11,3 +11,7 @@ Thumbs.db
 .vscode/
 .idea/
 _verificacion/
+
+# Llave de despliegue (nunca subir)
+.deploy/
+_to_delete/
