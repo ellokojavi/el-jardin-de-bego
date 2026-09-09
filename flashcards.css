@@ -1,0 +1,151 @@
+/* Flashcards de "El jardín de Bego".
+   Se carga después de guia.css y reutiliza sus tokens (--acento, --papel, --sombra…).
+   La misma página sirve para estudiar en pantalla y para imprimir: todo lo de
+   pantalla desaparece al imprimir y aparece .imprimible, que es lo que sale en el PDF. */
+
+[hidden]{display:none !important}
+.acciones-barra{display:flex;align-items:center;gap:9px;flex-wrap:wrap;justify-content:flex-end}
+
+/* ---------- mazo ---------- */
+.mazo{margin:26px 0 8px}
+.mazo-datos{
+  display:flex;align-items:baseline;justify-content:space-between;gap:12px;
+  font-size:.88rem;font-weight:700;color:var(--tinta-suave);margin-bottom:7px;
+}
+.marcador-mazo{font-weight:600}
+.progreso{
+  height:9px;background:var(--papel);border:2px solid var(--tinta);border-radius:99px;
+  overflow:hidden;margin-bottom:18px;
+}
+.progreso i{display:block;height:100%;width:0;background:var(--acento);transition:width .25s ease}
+
+.tarjeta{
+  perspective:1400px;cursor:pointer;outline-offset:4px;
+  margin-bottom:16px;
+}
+.giro{
+  position:relative;transform-style:preserve-3d;
+  transition:transform .5s cubic-bezier(.2,.8,.3,1);
+  min-height:320px;
+}
+.giro.volteada{transform:rotateY(180deg)}
+.lado{
+  position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+  display:flex;flex-direction:column;justify-content:center;gap:14px;
+  background:var(--papel);border:2px solid var(--tinta);border-radius:16px 16px 5px 5px;
+  box-shadow:6px 7px 0 var(--sombra,var(--pasto-hondo));
+  padding:30px 30px 26px;
+}
+.lado.reverso{transform:rotateY(180deg);background:#FFF9EE}
+.etiqueta{
+  font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--acento);
+}
+.texto{
+  margin:0;font-family:var(--display);font-size:1.42rem;line-height:1.35;font-weight:700;
+}
+.texto.respuesta{font-family:var(--texto);font-size:1.08rem;font-weight:600;line-height:1.55}
+.pista{margin-top:auto;font-size:.82rem;color:var(--tinta-suave);font-weight:600}
+.tarjeta:hover .lado{box-shadow:8px 10px 0 var(--sombra,var(--pasto-hondo))}
+
+/* ---------- botones ---------- */
+.boton{
+  font-family:var(--texto);font-size:.95rem;font-weight:800;
+  background:var(--papel);color:var(--tinta);
+  border:2px solid var(--tinta);border-radius:11px;
+  padding:10px 16px;cursor:pointer;
+  box-shadow:3px 4px 0 var(--sombra,var(--pasto-hondo));
+  transition:transform .14s ease,box-shadow .14s ease,color .14s ease,border-color .14s ease;
+}
+.boton:hover,.boton:focus-visible{
+  transform:translate(-1px,-2px);box-shadow:5px 6px 0 var(--sombra,var(--pasto-hondo));
+  color:var(--acento);border-color:var(--acento);
+}
+.boton:active{transform:translate(1px,1px);box-shadow:2px 2px 0 var(--sombra,var(--pasto-hondo))}
+.boton.principal{background:var(--acento);color:var(--papel);border-color:var(--tinta)}
+.boton.principal:hover,.boton.principal:focus-visible{color:var(--papel);border-color:var(--tinta)}
+.boton.chico{font-size:.84rem;padding:7px 13px}
+.boton.bien{border-color:var(--cien);color:var(--cien)}
+.boton.mal{border-color:var(--begonia);color:var(--begonia)}
+
+.controles{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.controles .boton{min-width:118px}
+.juicio{display:flex;gap:10px;justify-content:center;margin-bottom:14px;flex-wrap:wrap}
+.extras-mazo{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+
+.mazo.terminado .tarjeta,.mazo.terminado .controles,.mazo.terminado .juicio,
+.mazo.terminado>.extras-mazo{display:none}
+.resumen{
+  background:var(--papel);border:2px dashed var(--tinta);border-radius:14px;
+  padding:26px 24px;text-align:center;margin-top:6px;
+}
+.resumen h2{font-family:var(--display);margin:0 0 8px;font-size:1.5rem}
+.resumen p{margin:0;color:var(--tinta-suave)}
+
+/* ---------- instrucciones ---------- */
+.instrucciones{
+  margin:34px 0 10px;background:var(--papel);border:2px solid var(--pasto-hondo);
+  border-radius:14px;padding:22px 24px;
+}
+.instrucciones h2{font-family:var(--display);font-size:1.22rem;margin:0 0 10px}
+.instrucciones p{margin:0 0 12px;font-size:.96rem;color:var(--tinta-suave)}
+.instrucciones p:last-child{margin-bottom:0}
+.volver-guia a{color:var(--acento);font-weight:700}
+
+@media (max-width:560px){
+  .texto{font-size:1.2rem}
+  .lado{padding:22px 20px}
+  .controles .boton{min-width:0;flex:1}
+}
+@media (prefers-reduced-motion:reduce){
+  .giro{transition:none}
+  .boton{transition:none}
+}
+
+/* ---------- hoja para imprimir ---------- */
+.imprimible{display:none}
+
+@page{size:A4;margin:11mm 10mm}
+
+@media print{
+  html,body{background:#fff;margin:0;padding:0}
+  body>header,body>main,body>footer{display:none !important}
+  .imprimible{display:block}
+
+  .cabecera-impresa{
+    margin:0 0 5mm;padding-bottom:2mm;border-bottom:1pt solid #999;
+    font-family:Georgia,"Times New Roman",serif;color:#111;
+  }
+  .cabecera-impresa strong{display:block;font-size:12pt}
+  .cabecera-impresa span{display:block;font-size:8pt;color:#444}
+  .cabecera-impresa .modo{margin-top:1.5mm;font-style:italic}
+
+  .tira{
+    display:grid;grid-template-columns:1fr 1fr;
+    height:57mm;width:100%;
+    border:1pt solid #222;border-radius:1.5mm;
+    margin:0 0 5mm;
+    break-inside:avoid;page-break-inside:avoid;
+    overflow:hidden;
+  }
+  .tira .cara{
+    display:flex;flex-direction:column;justify-content:center;gap:2mm;
+    padding:5mm 6mm;overflow:hidden;
+  }
+  .tira .cara.pregunta{border-right:1pt dashed #999}
+  .tira .rotulo{
+    font-family:Arial,Helvetica,sans-serif;font-size:6.5pt;font-weight:700;
+    letter-spacing:.08em;text-transform:uppercase;color:#777;
+  }
+  .tira .linea{margin:0;color:#111}
+  .tira .cara.pregunta .linea{
+    font-family:Georgia,"Times New Roman",serif;font-size:12pt;font-weight:700;line-height:1.3;
+  }
+  .tira .cara.respuesta .linea{
+    font-family:Arial,Helvetica,sans-serif;font-size:9pt;line-height:1.35;
+  }
+  .tira .cara.respuesta.apretada .linea{font-size:7.8pt;line-height:1.3}
+  .tira .tema-impreso{
+    font-family:Arial,Helvetica,sans-serif;font-size:7pt;color:#777;margin-top:auto;
+  }
+}

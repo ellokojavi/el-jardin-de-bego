@@ -1,0 +1,295 @@
+{
+  "nota": "Fuente de las flashcards. Editar aquí y correr scripts/build-flashcards.py para regenerar las paginas y los PDF.",
+  "guias": [
+    {
+      "stem": "02-Lenguaje",
+      "clase": "g-leng",
+      "num": "Guía 2",
+      "asignatura": "Lenguaje",
+      "titulo": "Lenguaje y Comunicación",
+      "subtitulo": "Textos literarios, el poema y sus elementos",
+      "tarjetas": [
+        {
+          "tema": "Textos literarios",
+          "p": "¿En qué se diferencia un texto literario de uno no literario?",
+          "r": "El literario crea un mundo imaginario y busca emocionar, con imágenes y ritmo: cuento, novela, poema, obra de teatro. El no literario informa o explica algo real y comprobable, con lenguaje directo: noticia, receta, afiche, biografía."
+        },
+        {
+          "tema": "Textos literarios",
+          "p": "¿Cuáles son los tres géneros literarios?",
+          "r": "Narrativo (cuento, novela, fábula, leyenda), lírico (poema, canción, oda) y dramático (obras de teatro)."
+        },
+        {
+          "tema": "Género narrativo",
+          "p": "¿Qué caracteriza al género narrativo y cuál es su estructura?",
+          "r": "Un narrador cuenta una historia que les ocurre a unos personajes, en un lugar y un tiempo. Su estructura es inicio, desarrollo y desenlace."
+        },
+        {
+          "tema": "Género dramático",
+          "p": "¿Qué es una acotación y en qué género aparece?",
+          "r": "Es la indicación escrita que dice cómo tienen que actuar o moverse los personajes, por ejemplo «(entra corriendo, asustada)». Aparece en el género dramático, escrito en diálogos para ser representado."
+        },
+        {
+          "tema": "El poema",
+          "p": "¿Qué es un verso y qué es una estrofa?",
+          "r": "El verso es cada línea del poema («le puse un mástil de sal»). La estrofa es un grupo de versos separado de los demás por un espacio en blanco. «Barco de papel» tiene 3 estrofas de 4 versos: 12 versos en total."
+        },
+        {
+          "tema": "El poema",
+          "p": "¿Qué es la rima y cuáles son sus dos tipos?",
+          "r": "Es la coincidencia de sonidos al final de los versos, desde la última vocal acentuada. Consonante: coinciden todos los sonidos (timón / corazón). Asonante: coinciden solo las vocales (sal / mar)."
+        },
+        {
+          "tema": "El poema",
+          "p": "¿Qué es el ritmo de un poema y cómo se reconoce?",
+          "r": "Es la música que se produce al leer, por la cantidad de sílabas y los acentos. Se escucha mejor leyendo el poema en voz alta."
+        },
+        {
+          "tema": "Hablante lírico",
+          "p": "¿Quién es el hablante lírico de un poema?",
+          "r": "La voz imaginaria que habla dentro del poema, como un personaje inventado. No es la persona que lo escribió. En «Barco de papel» es alguien pequeño que juega con un barquito en un charco."
+        },
+        {
+          "tema": "Hablante lírico",
+          "p": "¿Qué diferencia hay entre objeto lírico y motivo lírico?",
+          "r": "El objeto lírico es aquello de lo que habla el poema (el barco de papel). El motivo lírico es el sentimiento o la idea central que hay detrás: la imaginación que convierte lo pequeño en enorme y la decisión de volver a empezar."
+        },
+        {
+          "tema": "Lenguaje figurado",
+          "p": "¿Qué es el lenguaje figurado?",
+          "r": "Es decir las cosas de manera indirecta, sin entenderlas al pie de la letra, para que el lector imagine y sienta más: «estoy muerta de sueño» no significa que estés muerta."
+        },
+        {
+          "tema": "Lenguaje figurado",
+          "p": "¿Cuál es la diferencia entre comparación y metáfora?",
+          "r": "La comparación une los dos elementos con un nexo —como, parece, igual que—: «tus ojos son como dos faroles». La metáfora reemplaza un elemento por otro sin nexo: «tus ojos son dos faroles»."
+        },
+        {
+          "tema": "Lenguaje figurado",
+          "p": "¿Qué es la personificación? Da un ejemplo.",
+          "r": "Es dar cualidades o acciones humanas a algo que no las tiene: «el viento silba», «la lluvia baila», «las semillas dormían»."
+        },
+        {
+          "tema": "Lenguaje figurado",
+          "p": "¿Qué es la hipérbole? Da un ejemplo.",
+          "r": "Es una exageración enorme y a propósito: «grité tan fuerte que me escucharon en Arica»."
+        },
+        {
+          "tema": "Lenguaje figurado",
+          "p": "¿Qué son la onomatopeya y la repetición?",
+          "r": "La onomatopeya imita un sonido con palabras: «tic, tac, tic», «shhh, shhh». La repetición repite palabras para dar énfasis o ritmo: «Cae despacio, cae ligera»."
+        }
+      ]
+    },
+    {
+      "stem": "03-Ciencias",
+      "clase": "g-cien",
+      "num": "Guía 3",
+      "asignatura": "Ciencias",
+      "titulo": "Ciencias Naturales",
+      "subtitulo": "Hábitos de vida saludable, menú saludable y efectos del cigarrillo",
+      "tarjetas": [
+        {
+          "tema": "Hábitos saludables",
+          "p": "¿Cuáles son los cinco pilares de una vida saludable?",
+          "r": "Alimentación equilibrada, actividad física, higiene, sueño e hidratación."
+        },
+        {
+          "tema": "Hábitos saludables",
+          "p": "¿Cuánta actividad física necesitas al día y qué cuenta como actividad física?",
+          "r": "Al menos 60 minutos diarios, que se pueden sumar durante el día. Cuenta cualquier movimiento que acelere la respiración: caminar al colegio, andar en bicicleta, bailar, subir escaleras o jugar en el recreo."
+        },
+        {
+          "tema": "Hábitos saludables",
+          "p": "¿Cuántas horas hay que dormir a los 10–11 años y para qué sirve dormir?",
+          "r": "Entre 9 y 11 horas cada noche. Mientras duermes, el cuerpo repara tejidos y el cerebro fija lo aprendido; por eso sin dormir bien cuesta concentrarse y memorizar."
+        },
+        {
+          "tema": "Hábitos saludables",
+          "p": "¿Qué es el sedentarismo y qué provoca?",
+          "r": "Es pasar casi todo el día sentada o acostada, moviéndose muy poco. Provoca sobrepeso, cansancio, dificultad para concentrarse y más riesgo de enfermedades cardiovasculares en la vida adulta."
+        },
+        {
+          "tema": "Alimentos y sellos",
+          "p": "¿Qué significa exactamente un sello negro «ALTO EN»?",
+          "r": "Que el producto supera el límite que fija la ley de azúcares, sodio, grasas saturadas o calorías. No dice «prohibido»: dice «consume poco y de vez en cuando»."
+        },
+        {
+          "tema": "Alimentos y sellos",
+          "p": "¿Cuáles son los cuatro sellos chilenos y qué ley los estableció?",
+          "r": "ALTO EN AZÚCARES, ALTO EN SODIO, ALTO EN GRASAS SATURADAS y ALTO EN CALORÍAS. Los establece la Ley 20.606 de Etiquetado de Alimentos, que además prohíbe venderlos en los colegios."
+        },
+        {
+          "tema": "Alimentos y sellos",
+          "p": "¿Qué tres cosas hay que mirar para leer bien un envase?",
+          "r": "1) Cuántos sellos tiene: mientras menos, mejor. 2) La lista de ingredientes, ordenada de mayor a menor: si el azúcar está entre los tres primeros, el producto tiene mucha azúcar. 3) La porción, porque la información no es del envase completo."
+        },
+        {
+          "tema": "Alimentos y sellos",
+          "p": "¿Qué grupo de alimentos aporta calcio y cuál aporta proteínas?",
+          "r": "El calcio viene de los lácteos (leche, yogur, quesillo) y forma huesos y dientes. Las proteínas vienen de carnes, pescados, huevos y legumbres, y sirven para crecer y reparar tejidos."
+        },
+        {
+          "tema": "Menú saludable",
+          "p": "¿Cómo se arma un plato según el modelo del plato saludable?",
+          "r": "La mitad (1/2) verduras y frutas de varios colores, un cuarto (1/4) cereales, papas o legumbres, y un cuarto (1/4) proteínas. Al lado, siempre un vaso de agua: 1/2 + 1/4 + 1/4 = 1 plato completo."
+        },
+        {
+          "tema": "Menú saludable",
+          "p": "Nombra tres errores frecuentes al armar un menú.",
+          "r": "Poner arroz y papas juntos, porque son del mismo grupo y ocupan dos veces el mismo cuarto; reemplazar el agua por jugo envasado, que suele llevar sello ALTO EN AZÚCARES; olvidar la fruta; y creer que «light» o «natural» significa «sin sellos»."
+        },
+        {
+          "tema": "El cigarrillo",
+          "p": "¿Cuáles son las tres sustancias más dañinas del humo del cigarrillo y qué hace cada una?",
+          "r": "Nicotina: produce adicción y acelera el corazón. Alquitrán: se deposita en los pulmones, destruye los cilios y es la principal causa del cáncer pulmonar. Monóxido de carbono: ocupa en la sangre el lugar del oxígeno."
+        },
+        {
+          "tema": "El cigarrillo",
+          "p": "¿Por qué es tan difícil dejar de fumar?",
+          "r": "Por la nicotina, que produce adicción: el cuerpo se acostumbra y empieza a necesitarla, así que la persona no puede dejarlo aunque quiera."
+        },
+        {
+          "tema": "El cigarrillo",
+          "p": "¿Cómo daña el cigarrillo el sistema respiratorio?",
+          "r": "Los cilios de la tráquea y los bronquios dejan de moverse, así que el polvo y los microbios se quedan adentro. Aparecen tos crónica y bronquitis y, con los años, enfisema y cáncer pulmonar. Los alvéolos pierden elasticidad."
+        },
+        {
+          "tema": "El cigarrillo",
+          "p": "¿Cómo daña el cigarrillo el sistema circulatorio?",
+          "r": "Las arterias se estrechan y se endurecen, sube la presión arterial y aumenta el riesgo de infarto y de accidente cerebrovascular. Además la sangre transporta menos oxígeno por el monóxido de carbono."
+        },
+        {
+          "tema": "El cigarrillo",
+          "p": "¿Qué es un fumador pasivo y por qué es un problema para los niños?",
+          "r": "Es quien respira el humo de otros sin fumar. Ese humo de segunda mano tiene las mismas sustancias tóxicas y en niños provoca más resfríos, otitis, bronquitis y crisis de asma."
+        },
+        {
+          "tema": "El cigarrillo",
+          "p": "¿Dónde prohíbe fumar la ley chilena (Ley 20.660)?",
+          "r": "En espacios cerrados de uso público, en establecimientos educacionales —incluidos los patios de los colegios—, en centros de salud y en el transporte público. También obliga a poner imágenes de advertencia en los envases."
+        },
+        {
+          "tema": "El cigarrillo",
+          "p": "Nombra tres estrategias para rechazar un cigarrillo.",
+          "r": "Decir que no directamente, sin explicaciones largas («No, gracias»); dar una razón propia («entreno y no quiero quedarme sin aire»); cambiar de tema o de lugar; estar con amigos que tampoco fuman; y contarle a un adulto de confianza si la presión se repite."
+        }
+      ]
+    },
+    {
+      "stem": "04-Historia",
+      "clase": "g-hist",
+      "num": "Guía 4",
+      "asignatura": "Historia",
+      "titulo": "Historia y Geografía",
+      "subtitulo": "Descubrimiento y Conquista de América",
+      "tarjetas": [
+        {
+          "tema": "Antes de 1492",
+          "p": "¿Por qué los europeos salieron a navegar a fines del siglo XV?",
+          "r": "Buscaban una nueva ruta hacia Asia para traer especias, seda y piedras preciosas. En 1453 cayó Constantinopla en manos de los turcos otomanos y se cerró la ruta terrestre, así que había que llegar por mar. También pesaron la religión y la competencia entre Portugal y Castilla."
+        },
+        {
+          "tema": "Antes de 1492",
+          "p": "Nombra tres avances técnicos que hicieron posibles los viajes y para qué servían.",
+          "r": "La brújula indicaba el norte aunque no se vieran las estrellas; el astrolabio calculaba la latitud mirando el sol o las estrellas; la carabela era liviana y veloz y, con su vela latina triangular, podía navegar contra el viento. También los portulanos, mapas de costas y puertos."
+        },
+        {
+          "tema": "Antes de 1492",
+          "p": "¿Cuál fue el error de cálculo de Colón y qué consecuencia tuvo?",
+          "r": "Los sabios ya sabían que la Tierra era esférica; lo que Colón calculó mal fue su tamaño: creyó que Asia estaba mucho más cerca navegando hacia el oeste. Ese error lo llevó a un continente que los europeos no conocían."
+        },
+        {
+          "tema": "Los viajes",
+          "p": "¿Quiénes financiaron el viaje de Colón y con qué documento?",
+          "r": "Los Reyes Católicos, Isabel de Castilla y Fernando de Aragón, mediante las Capitulaciones de Santa Fe (1492), que le prometían títulos y parte de las riquezas."
+        },
+        {
+          "tema": "Los viajes",
+          "p": "¿Qué ocurrió el 12 de octubre de 1492 y en qué naves?",
+          "r": "Colón llegó a una isla del Caribe que sus habitantes llamaban Guanahaní y que él bautizó San Salvador. Había zarpado de Palos de la Frontera el 3 de agosto con la Santa María, la Pinta y la Niña."
+        },
+        {
+          "tema": "Los viajes",
+          "p": "Si Colón llegó primero, ¿por qué el continente se llama América?",
+          "r": "Por Américo Vespucio, el navegante que sostuvo que se trataba de tierras nuevas y no de Asia. Colón hizo cuatro viajes y murió en 1506 convencido de haber llegado a Asia."
+        },
+        {
+          "tema": "Los viajes",
+          "p": "¿Qué fue el Tratado de Tordesillas (1494) y qué consecuencia tiene hoy?",
+          "r": "Para evitar la guerra entre Portugal y Castilla, trazó una línea imaginaria en el Atlántico: lo que quedara al este sería portugués y al oeste, castellano. Por eso hoy en Brasil se habla portugués y en el resto de Sudamérica, español."
+        },
+        {
+          "tema": "Los viajes",
+          "p": "¿Quién dio la primera vuelta al mundo y qué relación tiene con Chile?",
+          "r": "La expedición de Fernando de Magallanes y Juan Sebastián Elcano, entre 1519 y 1522. En 1520 cruzaron el estrecho del extremo sur de Chile que hoy lleva el nombre de Magallanes. Él murió en Filipinas y Elcano completó el viaje."
+        },
+        {
+          "tema": "La conquista",
+          "p": "¿Cuál es la diferencia entre descubrir y conquistar?",
+          "r": "Descubrir es llegar a un territorio desconocido para uno. Conquistar es ocuparlo por la fuerza, someter a sus habitantes e imponerles una nueva forma de gobierno, religión y economía."
+        },
+        {
+          "tema": "La conquista",
+          "p": "¿Quién conquistó a los aztecas y quién a los incas?",
+          "r": "Hernán Cortés conquistó el Imperio Azteca de Moctezuma II, con Tenochtitlán como ciudad clave, en 1521. Francisco Pizarro conquistó el Imperio Inca de Atahualpa, en Cajamarca y luego el Cuzco, entre 1532 y 1533."
+        },
+        {
+          "tema": "La conquista",
+          "p": "¿Por qué unos pocos españoles vencieron a imperios enormes?",
+          "r": "Por la suma de varias razones: armas de acero y de fuego, los caballos desconocidos en América, las alianzas con pueblos sometidos por aztecas e incas, los conflictos internos (los incas venían de una guerra civil) y, sobre todo, las enfermedades europeas como la viruela, que causaron más muertes que las guerras."
+        },
+        {
+          "tema": "La conquista",
+          "p": "¿Qué fueron la encomienda y la mita?",
+          "r": "En la encomienda, un grupo de indígenas quedaba «encomendado» a un español que recibía su trabajo y su tributo y debía protegerlos y evangelizarlos; en la práctica fue trabajo forzado. La mita eran turnos obligatorios de trabajo, sobre todo en minas."
+        },
+        {
+          "tema": "La conquista",
+          "p": "¿Quién fue Bartolomé de las Casas?",
+          "r": "Un fraile que denunció ante la Corona los abusos contra los indígenas. Sus denuncias llevaron a dictar las Leyes Nuevas (1542), que en la práctica se cumplieron poco."
+        },
+        {
+          "tema": "Conquista de Chile",
+          "p": "¿Qué pasó con la expedición de Almagro y qué fama le dejó a Chile?",
+          "r": "Diego de Almagro llegó desde el Perú entre 1535 y 1537 cruzando la cordillera por el paso de San Francisco. La travesía fue durísima, murieron muchos hombres de frío y hambre, y no encontró el oro que esperaba: volvió al Perú y Chile quedó con fama de tierra pobre."
+        },
+        {
+          "tema": "Conquista de Chile",
+          "p": "¿Quién fundó Santiago, cuándo y dónde?",
+          "r": "Pedro de Valdivia, el 12 de febrero de 1541, con el nombre de Santiago del Nuevo Extremo, a los pies del cerro Huelén (hoy Santa Lucía), entre el río Mapocho y una rama del mismo. Lo acompañaba Inés de Suárez, la única mujer española de la expedición."
+        },
+        {
+          "tema": "Conquista de Chile",
+          "p": "¿Qué ocurrió el 11 de septiembre de 1541?",
+          "r": "Mientras Valdivia estaba fuera, el cacique Michimalonco atacó y destruyó casi por completo Santiago. Los sobrevivientes la reconstruyeron y resistieron años de hambre."
+        },
+        {
+          "tema": "Guerra de Arauco",
+          "p": "¿Qué fue la Guerra de Arauco y cuáles son sus cuatro hitos?",
+          "r": "La resistencia del pueblo mapuche al sur del río Biobío durante más de tres siglos: el conflicto más largo de la historia de Chile. Tucapel (1553): muere Valdivia derrotado por Lautaro. 1557: muere Lautaro en Peteroa. 1558: ejecutan a Caupolicán. Curalaba (1598): los mapuche destruyen las ciudades del sur y el Biobío queda como frontera."
+        },
+        {
+          "tema": "Guerra de Arauco",
+          "p": "¿Qué es La Araucana y quién la escribió?",
+          "r": "Un poema épico sobre la Guerra de Arauco, escrito por el poeta soldado Alonso de Ercilla, que retrata con admiración a los guerreros mapuche. Es el primer gran texto literario sobre Chile."
+        },
+        {
+          "tema": "Consecuencias",
+          "p": "¿Qué es el mestizaje y por qué importa para entender Chile hoy?",
+          "r": "Es la mezcla entre españoles e indígenas, de familias y también de cultura: idioma, comidas, fiestas y creencias. De ahí viene la mayoría de la gente en Chile. Palabras como guagua, cahuín, pilucho, poto, laucha, pololo, charqui y guata vienen del mapudungun y del quechua."
+        },
+        {
+          "tema": "Consecuencias",
+          "p": "¿Qué productos se intercambiaron entre América y Europa?",
+          "r": "De América a Europa: papa, maíz, tomate, cacao, poroto, ají, tabaco y quinua. De Europa a América: trigo, arroz, caña de azúcar, vid, caballo, vaca, oveja y gallina. Cambió la alimentación del mundo entero."
+        },
+        {
+          "tema": "Consecuencias",
+          "p": "¿Qué consecuencias tuvo la conquista para los pueblos americanos?",
+          "r": "Una enorme disminución de la población por las enfermedades, las guerras y el trabajo forzado; la pérdida de sus tierras; la imposición del catolicismo y del español; y la desaparición de muchas lenguas y costumbres."
+        }
+      ]
+    }
+  ]
+}

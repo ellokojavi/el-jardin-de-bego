@@ -1,5 +1,7 @@
 # Artefactos de conversión y verificación
 *.pdf
+# ...salvo las tarjetas para imprimir, que sí van al sitio
+!flashcards-*.pdf
 page-*.jpg
 *.tmp
 

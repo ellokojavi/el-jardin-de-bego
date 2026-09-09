@@ -33,6 +33,34 @@ Y la página web correspondiente:
 python3 scripts/build-web.py 01-Matematicas.md
 ```
 
+## Flashcards
+
+Tres de las guías tienen además un mazo de tarjetas de pregunta y respuesta con los
+aprendizajes clave:
+
+| Mazo | Tarjetas | En línea | Para imprimir |
+|---|---|---|---|
+| Lenguaje | 14 | `flashcards-02-Lenguaje.html` | `flashcards-02-Lenguaje.pdf` |
+| Ciencias | 17 | `flashcards-03-Ciencias.html` | `flashcards-03-Ciencias.pdf` |
+| Historia | 21 | `flashcards-04-Historia.html` | `flashcards-04-Historia.pdf` |
+
+La página en línea es un mazo para estudiar: se da vuelta la tarjeta, se marca «la
+sabía» o «a repasar» y al final se puede pasar de nuevo solo lo fallado. El PDF trae
+las mismas tarjetas ya escritas, cuatro por hoja: se imprime por un solo lado, se
+recorta por la línea entera y se dobla por la punteada, y queda la pregunta delante y
+la respuesta detrás.
+
+Las preguntas viven en `scripts/flashcards.json`. Después de editarlas:
+
+```bash
+python3 scripts/build-flashcards.py            # todos los mazos
+python3 scripts/build-flashcards.py 04-Historia  # uno solo
+```
+
+El script escribe la página y saca el PDF imprimiéndola con Chrome sin ventana, así que
+las dos versiones salen siempre de la misma fuente. El estilo compartido está en
+`flashcards.css`.
+
 ## Estructura de cada guía
 
 1. Diagnóstico de entrada

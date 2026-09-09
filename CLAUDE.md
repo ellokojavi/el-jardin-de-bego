@@ -131,6 +131,31 @@ scripts/build.sh 01-Matematicas.md      # .docx
 python3 scripts/build-web.py 01-Matematicas.md   # .html
 ```
 
+## Flashcards
+
+Lenguaje, Ciencias e Historia tienen un mazo de tarjetas cada uno, en dos formatos que
+salen del **mismo archivo**: `flashcards-02-Lenguaje.html` (y sus equivalentes) es la
+página para estudiar en pantalla y lleva adentro, oculta con `display:none`, la hoja
+`.imprimible` que solo aparece al imprimir. El PDF se genera imprimiendo esa misma
+página con Chrome sin ventana, así que nunca se desincronizan.
+
+- **Fuente:** `scripts/flashcards.json` — una entrada por guía, con `stem`, `clase`
+  (la de `guia.css`), títulos y la lista de tarjetas (`tema`, `p`, `r`). Es lo único
+  que se edita a mano; las páginas y los PDF son generados.
+- **Generador:** `python3 scripts/build-flashcards.py [stem]`. Sin argumentos rehace
+  los tres mazos. Si no encuentra Chrome, deja el HTML y avisa.
+- **Estilo:** `flashcards.css`, cargado después de `guia.css` y apoyado en sus tokens.
+- **Papel:** cada tarjeta se imprime como una tira de 57 mm con la pregunta a la
+  izquierda y la respuesta a la derecha, cuatro por hoja A4. Se corta por el borde
+  entero y se dobla por la línea punteada del medio: impresión por una sola cara, sin
+  reversos que calzar. Las respuestas de más de 240 caracteres bajan de cuerpo solas
+  (clase `apretada`); si una respuesta se sale de la tira, hay que acortarla en el JSON.
+- **Criterio de contenido:** las tarjetas repasan lo esencial de la guía, con las mismas
+  palabras y ejemplos que usa el documento. No introducen materia nueva. Si se edita una
+  guía, revisar si su mazo quedó desactualizado.
+- Los enlaces a los dos formatos van en la caja de la guía en `index.html`, en la fila
+  `.extras`.
+
 ## Toolchain
 
 Todo está instalado en este Mac (`pandoc`, `soffice`, `pdftoppm`, `git`).

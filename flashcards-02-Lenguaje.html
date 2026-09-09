@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Flashcards de Lenguaje · El jardín de Bego</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🌷%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./guia.css">
+<link rel="stylesheet" href="./flashcards.css">
+</head>
+<body class="g-leng cuerpo-tarjetas">
+
+<header class="barra">
+  <div class="envoltura">
+    <a class="volver" href="./index.html">&larr; El jardín de Bego</a>
+    <span class="acciones-barra">
+      <a class="descargar" href="./02-Lenguaje.html">Ver la guía</a>
+      <a class="descargar" href="./flashcards-02-Lenguaje.pdf" download="El jardin de Bego - Flashcards Lenguaje.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M4 20h16"/></svg> Imprimibles</a>
+    </span>
+  </div>
+</header>
+
+<main class="envoltura">
+  <div class="encabezado">
+    <div class="num">Guía 2 · Flashcards</div>
+    <h1>Lenguaje y Comunicación</h1>
+    <p class="lema">Textos literarios, el poema y sus elementos</p>
+    <p class="credito">14 tarjetas · Bego · 5° básico · Repaso 2026</p>
+  </div>
+
+  <section class="mazo" aria-label="Mazo de tarjetas">
+    <div class="mazo-datos">
+      <span id="posicion">Tarjeta 1 de 14</span>
+      <span id="marcador" class="marcador-mazo"></span>
+    </div>
+    <div class="progreso"><i id="avance"></i></div>
+
+    <div class="tarjeta" id="tarjeta" tabindex="0" role="button" aria-live="polite"
+         aria-label="Tarjeta. Toca o aprieta la barra espaciadora para darla vuelta.">
+      <div class="giro" id="giro">
+        <div class="lado frente">
+          <span class="etiqueta" id="tema-frente"></span>
+          <p class="texto" id="pregunta"></p>
+          <span class="pista">Toca la tarjeta para ver la respuesta</span>
+        </div>
+        <div class="lado reverso">
+          <span class="etiqueta">Respuesta</span>
+          <p class="texto respuesta" id="respuesta"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="juicio" id="juicio" hidden>
+      <button type="button" class="boton bien" id="btn-bien">La sabía</button>
+      <button type="button" class="boton mal" id="btn-mal">A repasar</button>
+    </div>
+
+    <div class="controles">
+      <button type="button" class="boton" id="btn-antes" aria-label="Tarjeta anterior">&larr; Antes</button>
+      <button type="button" class="boton principal" id="btn-voltear">Dar vuelta</button>
+      <button type="button" class="boton" id="btn-sigue" aria-label="Tarjeta siguiente">Después &rarr;</button>
+    </div>
+
+    <div class="extras-mazo">
+      <button type="button" class="boton chico" id="btn-barajar">Barajar</button>
+      <button type="button" class="boton chico" id="btn-reiniciar">Empezar de nuevo</button>
+    </div>
+
+    <div class="resumen" id="resumen" hidden>
+      <h2 id="resumen-titulo"></h2>
+      <p id="resumen-texto"></p>
+      <div class="extras-mazo">
+        <button type="button" class="boton principal" id="btn-repasar" hidden>Repasar las que fallé</button>
+        <button type="button" class="boton" id="btn-otra-vez">Pasar todas de nuevo</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="instrucciones">
+    <h2>Cómo se usan</h2>
+    <p><strong>En pantalla.</strong> Lee la pregunta, respóndela en voz alta y recién ahí da vuelta la
+    tarjeta. Marca «la sabía» o «a repasar» con honestidad: al final el mazo te deja pasar de nuevo
+    solo las que fallaste. «Barajar» las desordena, que es como conviene estudiar la segunda vuelta.</p>
+    <p><strong>En papel.</strong> El botón <em>Imprimibles</em> baja un PDF con las 14 tarjetas ya
+    escritas. Imprime las hojas por un solo lado, recorta por la línea entera y dobla por la línea
+    punteada: te queda la pregunta por delante y la respuesta por detrás.</p>
+    <p class="volver-guia"><a href="./02-Lenguaje.html">Volver a la guía 2</a> · <a href="./index.html">Índice del jardín</a></p>
+  </section>
+</main>
+
+<footer class="cierre">
+  <p>El jardín de Bego · Flashcards de Lenguaje</p>
+</footer>
+
+<!-- Hoja para imprimir: invisible en pantalla, es la que sale en el PDF y en Ctrl+P -->
+<div class="imprimible" aria-hidden="true">
+  <div class="cabecera-impresa">
+    <strong>Flashcards · Lenguaje y Comunicación</strong>
+    <span>Textos literarios, el poema y sus elementos · Bego · 5° básico</span>
+    <span class="modo">Recorta por la línea entera y dobla por la punteada: la pregunta queda delante y la respuesta detrás.</span>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 1 de 14</span>
+      <p class="linea">¿En qué se diferencia un texto literario de uno no literario?</p>
+      <span class="tema-impreso">Textos literarios</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 1</span>
+      <p class="linea">El literario crea un mundo imaginario y busca emocionar, con imágenes y ritmo: cuento, novela, poema, obra de teatro. El no literario informa o explica algo real y comprobable, con lenguaje directo: noticia, receta, afiche, biografía.</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 2 de 14</span>
+      <p class="linea">¿Cuáles son los tres géneros literarios?</p>
+      <span class="tema-impreso">Textos literarios</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 2</span>
+      <p class="linea">Narrativo (cuento, novela, fábula, leyenda), lírico (poema, canción, oda) y dramático (obras de teatro).</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 3 de 14</span>
+      <p class="linea">¿Qué caracteriza al género narrativo y cuál es su estructura?</p>
+      <span class="tema-impreso">Género narrativo</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 3</span>
+      <p class="linea">Un narrador cuenta una historia que les ocurre a unos personajes, en un lugar y un tiempo. Su estructura es inicio, desarrollo y desenlace.</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 4 de 14</span>
+      <p class="linea">¿Qué es una acotación y en qué género aparece?</p>
+      <span class="tema-impreso">Género dramático</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 4</span>
+      <p class="linea">Es la indicación escrita que dice cómo tienen que actuar o moverse los personajes, por ejemplo «(entra corriendo, asustada)». Aparece en el género dramático, escrito en diálogos para ser representado.</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 5 de 14</span>
+      <p class="linea">¿Qué es un verso y qué es una estrofa?</p>
+      <span class="tema-impreso">El poema</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 5</span>
+      <p class="linea">El verso es cada línea del poema («le puse un mástil de sal»). La estrofa es un grupo de versos separado de los demás por un espacio en blanco. «Barco de papel» tiene 3 estrofas de 4 versos: 12 versos en total.</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 6 de 14</span>
+      <p class="linea">¿Qué es la rima y cuáles son sus dos tipos?</p>
+      <span class="tema-impreso">El poema</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 6</span>
+      <p class="linea">Es la coincidencia de sonidos al final de los versos, desde la última vocal acentuada. Consonante: coinciden todos los sonidos (timón / corazón). Asonante: coinciden solo las vocales (sal / mar).</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 7 de 14</span>
+      <p class="linea">¿Qué es el ritmo de un poema y cómo se reconoce?</p>
+      <span class="tema-impreso">El poema</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 7</span>
+      <p class="linea">Es la música que se produce al leer, por la cantidad de sílabas y los acentos. Se escucha mejor leyendo el poema en voz alta.</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 8 de 14</span>
+      <p class="linea">¿Quién es el hablante lírico de un poema?</p>
+      <span class="tema-impreso">Hablante lírico</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 8</span>
+      <p class="linea">La voz imaginaria que habla dentro del poema, como un personaje inventado. No es la persona que lo escribió. En «Barco de papel» es alguien pequeño que juega con un barquito en un charco.</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 9 de 14</span>
+      <p class="linea">¿Qué diferencia hay entre objeto lírico y motivo lírico?</p>
+      <span class="tema-impreso">Hablante lírico</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 9</span>
+      <p class="linea">El objeto lírico es aquello de lo que habla el poema (el barco de papel). El motivo lírico es el sentimiento o la idea central que hay detrás: la imaginación que convierte lo pequeño en enorme y la decisión de volver a empezar.</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 10 de 14</span>
+      <p class="linea">¿Qué es el lenguaje figurado?</p>
+      <span class="tema-impreso">Lenguaje figurado</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 10</span>
+      <p class="linea">Es decir las cosas de manera indirecta, sin entenderlas al pie de la letra, para que el lector imagine y sienta más: «estoy muerta de sueño» no significa que estés muerta.</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 11 de 14</span>
+      <p class="linea">¿Cuál es la diferencia entre comparación y metáfora?</p>
+      <span class="tema-impreso">Lenguaje figurado</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 11</span>
+      <p class="linea">La comparación une los dos elementos con un nexo —como, parece, igual que—: «tus ojos son como dos faroles». La metáfora reemplaza un elemento por otro sin nexo: «tus ojos son dos faroles».</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 12 de 14</span>
+      <p class="linea">¿Qué es la personificación? Da un ejemplo.</p>
+      <span class="tema-impreso">Lenguaje figurado</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 12</span>
+      <p class="linea">Es dar cualidades o acciones humanas a algo que no las tiene: «el viento silba», «la lluvia baila», «las semillas dormían».</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 13 de 14</span>
+      <p class="linea">¿Qué es la hipérbole? Da un ejemplo.</p>
+      <span class="tema-impreso">Lenguaje figurado</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 13</span>
+      <p class="linea">Es una exageración enorme y a propósito: «grité tan fuerte que me escucharon en Arica».</p>
+    </div>
+  </div>
+  <div class="tira">
+    <div class="cara pregunta">
+      <span class="rotulo">Lenguaje · tarjeta 14 de 14</span>
+      <p class="linea">¿Qué son la onomatopeya y la repetición?</p>
+      <span class="tema-impreso">Lenguaje figurado</span>
+    </div>
+    <div class="cara respuesta">
+      <span class="rotulo">Respuesta 14</span>
+      <p class="linea">La onomatopeya imita un sonido con palabras: «tic, tac, tic», «shhh, shhh». La repetición repite palabras para dar énfasis o ritmo: «Cae despacio, cae ligera».</p>
+    </div>
+  </div>
+</div>
+
+<script>
+const TARJETAS = [{"tema": "Textos literarios", "p": "¿En qué se diferencia un texto literario de uno no literario?", "r": "El literario crea un mundo imaginario y busca emocionar, con imágenes y ritmo: cuento, novela, poema, obra de teatro. El no literario informa o explica algo real y comprobable, con lenguaje directo: noticia, receta, afiche, biografía."}, {"tema": "Textos literarios", "p": "¿Cuáles son los tres géneros literarios?", "r": "Narrativo (cuento, novela, fábula, leyenda), lírico (poema, canción, oda) y dramático (obras de teatro)."}, {"tema": "Género narrativo", "p": "¿Qué caracteriza al género narrativo y cuál es su estructura?", "r": "Un narrador cuenta una historia que les ocurre a unos personajes, en un lugar y un tiempo. Su estructura es inicio, desarrollo y desenlace."}, {"tema": "Género dramático", "p": "¿Qué es una acotación y en qué género aparece?", "r": "Es la indicación escrita que dice cómo tienen que actuar o moverse los personajes, por ejemplo «(entra corriendo, asustada)». Aparece en el género dramático, escrito en diálogos para ser representado."}, {"tema": "El poema", "p": "¿Qué es un verso y qué es una estrofa?", "r": "El verso es cada línea del poema («le puse un mástil de sal»). La estrofa es un grupo de versos separado de los demás por un espacio en blanco. «Barco de papel» tiene 3 estrofas de 4 versos: 12 versos en total."}, {"tema": "El poema", "p": "¿Qué es la rima y cuáles son sus dos tipos?", "r": "Es la coincidencia de sonidos al final de los versos, desde la última vocal acentuada. Consonante: coinciden todos los sonidos (timón / corazón). Asonante: coinciden solo las vocales (sal / mar)."}, {"tema": "El poema", "p": "¿Qué es el ritmo de un poema y cómo se reconoce?", "r": "Es la música que se produce al leer, por la cantidad de sílabas y los acentos. Se escucha mejor leyendo el poema en voz alta."}, {"tema": "Hablante lírico", "p": "¿Quién es el hablante lírico de un poema?", "r": "La voz imaginaria que habla dentro del poema, como un personaje inventado. No es la persona que lo escribió. En «Barco de papel» es alguien pequeño que juega con un barquito en un charco."}, {"tema": "Hablante lírico", "p": "¿Qué diferencia hay entre objeto lírico y motivo lírico?", "r": "El objeto lírico es aquello de lo que habla el poema (el barco de papel). El motivo lírico es el sentimiento o la idea central que hay detrás: la imaginación que convierte lo pequeño en enorme y la decisión de volver a empezar."}, {"tema": "Lenguaje figurado", "p": "¿Qué es el lenguaje figurado?", "r": "Es decir las cosas de manera indirecta, sin entenderlas al pie de la letra, para que el lector imagine y sienta más: «estoy muerta de sueño» no significa que estés muerta."}, {"tema": "Lenguaje figurado", "p": "¿Cuál es la diferencia entre comparación y metáfora?", "r": "La comparación une los dos elementos con un nexo —como, parece, igual que—: «tus ojos son como dos faroles». La metáfora reemplaza un elemento por otro sin nexo: «tus ojos son dos faroles»."}, {"tema": "Lenguaje figurado", "p": "¿Qué es la personificación? Da un ejemplo.", "r": "Es dar cualidades o acciones humanas a algo que no las tiene: «el viento silba», «la lluvia baila», «las semillas dormían»."}, {"tema": "Lenguaje figurado", "p": "¿Qué es la hipérbole? Da un ejemplo.", "r": "Es una exageración enorme y a propósito: «grité tan fuerte que me escucharon en Arica»."}, {"tema": "Lenguaje figurado", "p": "¿Qué son la onomatopeya y la repetición?", "r": "La onomatopeya imita un sonido con palabras: «tic, tac, tic», «shhh, shhh». La repetición repite palabras para dar énfasis o ritmo: «Cae despacio, cae ligera»."}];
+const ASIGNATURA = "Lenguaje";
+
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const tarjeta = $("tarjeta"), giro = $("giro");
+  const elPregunta = $("pregunta"), elRespuesta = $("respuesta"), elTema = $("tema-frente");
+  const elPos = $("posicion"), elMarcador = $("marcador"), elAvance = $("avance");
+  const juicio = $("juicio"), resumen = $("resumen"), mazo = document.querySelector(".mazo");
+
+  let orden = [], i = 0, vuelta = false, sabidas = new Set(), fallidas = new Set();
+
+  const barajar = (a) => { for (let k = a.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [a[k], a[j]] = [a[j], a[k]]; } return a; };
+
+  function arrancar(indices, mezclar) {
+    orden = mezclar ? barajar(indices.slice()) : indices.slice();
+    i = 0; vuelta = false; sabidas = new Set(); fallidas = new Set();
+    resumen.hidden = true;
+    mazo.classList.remove("terminado");
+    pintar();
+  }
+
+  function pintar() {
+    const t = TARJETAS[orden[i]];
+    giro.classList.remove("volteada");
+    vuelta = false;
+    elTema.textContent = t.tema || ASIGNATURA;
+    elPregunta.textContent = t.p;
+    elRespuesta.textContent = t.r;
+    elPos.textContent = "Tarjeta " + (i + 1) + " de " + orden.length;
+    elMarcador.textContent = sabidas.size ? sabidas.size + " sabidas · " + fallidas.size + " a repasar" : "";
+    elAvance.style.width = ((i) / orden.length * 100) + "%";
+    juicio.hidden = true;
+    $("btn-voltear").textContent = "Dar vuelta";
+    tarjeta.setAttribute("aria-label", "Pregunta: " + t.p);
+  }
+
+  function voltear() {
+    vuelta = !vuelta;
+    giro.classList.toggle("volteada", vuelta);
+    juicio.hidden = !vuelta;
+    $("btn-voltear").textContent = vuelta ? "Ver la pregunta" : "Dar vuelta";
+    if (vuelta) tarjeta.setAttribute("aria-label", "Respuesta: " + TARJETAS[orden[i]].r);
+  }
+
+  function avanzar(paso) {
+    const siguiente = i + paso;
+    if (siguiente < 0) return;
+    if (siguiente >= orden.length) { terminar(); return; }
+    i = siguiente; pintar();
+  }
+
+  function juzgar(bien) {
+    const id = orden[i];
+    if (bien) { sabidas.add(id); fallidas.delete(id); } else { fallidas.add(id); sabidas.delete(id); }
+    avanzar(1);
+  }
+
+  function terminar() {
+    mazo.classList.add("terminado");
+    resumen.hidden = false;
+    elAvance.style.width = "100%";
+    elPos.textContent = "Mazo terminado";
+    elMarcador.textContent = "";
+    const total = orden.length, bien = sabidas.size, mal = fallidas.size;
+    $("resumen-titulo").textContent = mal === 0 && bien > 0 ? "¡Te las sabías todas!" : "Fin del mazo";
+    $("resumen-texto").textContent = bien + " de " + total + " marcadas como sabidas" +
+      (mal ? " y " + mal + " para repasar." : ".") +
+      (bien + mal < total ? " Las que no marcaste quedaron sin puntuar." : "");
+    $("btn-repasar").hidden = mal === 0;
+    resumen.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  tarjeta.addEventListener("click", voltear);
+  tarjeta.addEventListener("keydown", (ev) => {
+    if (ev.key === " " || ev.key === "Enter") { ev.preventDefault(); voltear(); }
+  });
+  $("btn-voltear").addEventListener("click", voltear);
+  $("btn-antes").addEventListener("click", () => avanzar(-1));
+  $("btn-sigue").addEventListener("click", () => avanzar(1));
+  $("btn-bien").addEventListener("click", () => juzgar(true));
+  $("btn-mal").addEventListener("click", () => juzgar(false));
+  $("btn-barajar").addEventListener("click", () => arrancar(TARJETAS.map((_, k) => k), true));
+  $("btn-reiniciar").addEventListener("click", () => arrancar(TARJETAS.map((_, k) => k), false));
+  $("btn-otra-vez").addEventListener("click", () => arrancar(TARJETAS.map((_, k) => k), true));
+  $("btn-repasar").addEventListener("click", () => arrancar(Array.from(fallidas), true));
+
+  document.addEventListener("keydown", (ev) => {
+    if (ev.target.tagName === "BUTTON" && ev.key === " ") return;
+    if (ev.key === "ArrowRight") avanzar(1);
+    else if (ev.key === "ArrowLeft") avanzar(-1);
+    else if (ev.key === " " && ev.target === document.body) { ev.preventDefault(); voltear(); }
+  });
+
+  arrancar(TARJETAS.map((_, k) => k), false);
+})();
+
+</script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Estado del proyecto
 
-Última actualización: 2026-09-07
+Última actualización: 2026-09-09
 
 ## Completado
 
@@ -16,6 +16,13 @@ Las siete piezas están producidas y convertidas a `.docx`:
 El 2026-09-07 el repositorio se instaló como proyecto local de Cowork en
 `~/Documents/Claude/Projects/Plan de Estudios Bego - Quinto Basico`, conservando su
 historial git.
+
+### Flashcards (2026-09-09)
+
+Mazos de pregunta y respuesta para Lenguaje (14 tarjetas), Ciencias (17) e Historia (21),
+en dos formatos generados desde `scripts/flashcards.json` por `scripts/build-flashcards.py`:
+la página para estudiar en pantalla y el PDF para recortar y doblar. Enlazados desde la
+caja de cada guía en `index.html`. Matemáticas e Inglés todavía no tienen mazo.
 
 ## Publicado
 
