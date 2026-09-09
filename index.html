@@ -157,12 +157,14 @@ body{
   font-weight:800;font-size:.92rem;color:var(--acento);
 }
 .ficha .extras{
-  display:flex;align-items:center;flex-wrap:wrap;gap:8px;
-  margin-top:11px;
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  flex-wrap:wrap;margin-top:9px;
 }
-.ficha .rotulo-extras{
-  font-size:.78rem;font-weight:800;letter-spacing:.02em;color:var(--tinta-suave);
+.ficha .extras .abrir{
+  position:relative;z-index:1;text-decoration:none;white-space:nowrap;
 }
+.ficha .extras .abrir:hover,.ficha .extras .abrir:focus-visible{text-decoration:underline}
+.ficha .acciones{flex-wrap:wrap;justify-content:flex-end}
 .f-mate{--acento:var(--mate);--sombra:#CBDDEC}
 .f-leng{--acento:var(--leng);--sombra:#EFD2DC}
 .f-cien{--acento:var(--cien);--sombra:#CFE3D5}
@@ -475,7 +477,7 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
         <h3><a class="tapa" href="./02-Lenguaje.html">Lenguaje</a></h3>
         <p>Textos literarios, el poema y sus elementos, y el lenguaje figurado.</p>
         <div class="pie"><span class="horas">4 horas</span><span class="acciones"><span class="abrir">Abrir guía</span><a class="bajar" href="./02-Lenguaje.docx" download="El jardin de Bego - 02-Lenguaje.docx" aria-label="Descargar la guía en Word">.docx</a></span></div>
-        <div class="extras"><span class="rotulo-extras">Flashcards</span><a class="bajar" href="./flashcards-02-Lenguaje.html">En línea</a><a class="bajar" href="./flashcards-02-Lenguaje.pdf" download="El jardin de Bego - Flashcards Lenguaje.pdf">Imprimir</a></div>
+        <div class="extras"><span class="horas">Flashcards</span><span class="acciones"><a class="abrir" href="./flashcards-02-Lenguaje.html">Estudiar</a><a class="bajar" href="./flashcards-02-Lenguaje.pdf" download="El jardin de Bego - Flashcards Lenguaje.pdf" aria-label="Descargar las flashcards para imprimir">.pdf</a></span></div>
       </article>
 
       <article class="ficha f-cien">
@@ -489,7 +491,7 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
         <h3><a class="tapa" href="./03-Ciencias.html">Ciencias Naturales</a></h3>
         <p>Hábitos de vida saludable, menú saludable y efectos del cigarrillo.</p>
         <div class="pie"><span class="horas">4 horas</span><span class="acciones"><span class="abrir">Abrir guía</span><a class="bajar" href="./03-Ciencias.docx" download="El jardin de Bego - 03-Ciencias.docx" aria-label="Descargar la guía en Word">.docx</a></span></div>
-        <div class="extras"><span class="rotulo-extras">Flashcards</span><a class="bajar" href="./flashcards-03-Ciencias.html">En línea</a><a class="bajar" href="./flashcards-03-Ciencias.pdf" download="El jardin de Bego - Flashcards Ciencias.pdf">Imprimir</a></div>
+        <div class="extras"><span class="horas">Flashcards</span><span class="acciones"><a class="abrir" href="./flashcards-03-Ciencias.html">Estudiar</a><a class="bajar" href="./flashcards-03-Ciencias.pdf" download="El jardin de Bego - Flashcards Ciencias.pdf" aria-label="Descargar las flashcards para imprimir">.pdf</a></span></div>
       </article>
 
       <article class="ficha f-hist">
@@ -507,7 +509,7 @@ a:focus-visible,.ficha:focus-visible{outline:3px solid var(--begonia);outline-of
         <h3><a class="tapa" href="./04-Historia.html">Historia</a></h3>
         <p>Descubrimiento y Conquista de América, y la conquista de Chile.</p>
         <div class="pie"><span class="horas">4 horas</span><span class="acciones"><span class="abrir">Abrir guía</span><a class="bajar" href="./04-Historia.docx" download="El jardin de Bego - 04-Historia.docx" aria-label="Descargar la guía en Word">.docx</a></span></div>
-        <div class="extras"><span class="rotulo-extras">Flashcards</span><a class="bajar" href="./flashcards-04-Historia.html">En línea</a><a class="bajar" href="./flashcards-04-Historia.pdf" download="El jardin de Bego - Flashcards Historia.pdf">Imprimir</a></div>
+        <div class="extras"><span class="horas">Flashcards</span><span class="acciones"><a class="abrir" href="./flashcards-04-Historia.html">Estudiar</a><a class="bajar" href="./flashcards-04-Historia.pdf" download="El jardin de Bego - Flashcards Historia.pdf" aria-label="Descargar las flashcards para imprimir">.pdf</a></span></div>
       </article>
 
       <article class="ficha f-ingl">
