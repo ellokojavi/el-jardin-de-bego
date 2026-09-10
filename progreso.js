@@ -15,6 +15,6 @@
  *   Cierre               → 12, 13, 14, 15
  */
 window.PROGRESO = {
-  actualizado: "2026-09-07",
-  sesiones: [1, 2, 3, 5, 6, 11]
+  actualizado: "2026-09-10",
+  sesiones: [1, 2, 3, 4, 5, 6, 11]
 };
